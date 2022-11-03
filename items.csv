@@ -1,0 +1,675 @@
+,item_id,name,kind,type,alcohol_by_volume,color,manufacturer,country,region,cydr_musujący,likier_mleczny,likier_owocowy,likier_ziołowy,piwo_aipa,piwo_american ipa,piwo_american pale ale,piwo_apa,piwo_baltic porter,piwo_black ipa,piwo_bohemian pilsener,piwo_ciemny lager,piwo_english pale ale,piwo_fruit & honey ale,piwo_fruit gose,piwo_india pale ale,piwo_lager,piwo_milk stout,piwo_non-alcoholic witbier,piwo_pale lager,piwo_pils,piwo_pilsner,piwo_porter,piwo_smoked imperial stout,piwo_smoked white ipa,piwo_sour ale,piwo_specialty beer,piwo_stout,piwo_strong lager,piwo_světlý ležák,piwo_weissbier,piwo_witbier,rum_biały,rum_czarny,rum_złoty,tequila_czysta,whisky_blended,whisky_single malt,wino_deserowe,wino_słodkie,wino_wytrawne,wódka_czysta
+0,62aa2b37e33ccae4961a4daa,Jägermeister,likier,Ziołowy,35.0,ciemny,Mast-Jägermeister SE,Niemcy,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,62ab28e88a757f60cc3f31db, Biały Bocian Słony Karmel,likier,mleczny,16.0,karmelowy,Polmos,Polska,Bielsko-Biała,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,62ab2a32fd2e7fbd58da41d9,Biały Bocian Advocat,likier,jajeczny,16.0,żółty,Polmos,Polska,Bielsko-Biała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,62ab611c4a2fcedd4ce86a79,James cook white oversea,rum,biały,37.5,biały,Eckerts Wacholder Brennerei GmbH,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+4,62ab638288a7811f65839221, Krupnik Słony Karmel,likier,mleczny,16.0,karmelowy,Sobieski,Polska,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,62ab661388a7811f65839222,Havana Club Anejo Especial,rum,złoty,37.5,złoty,Havana Club,Kuba,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+6,62ab681f88a7811f65839223,Sheridans Coffee Layered Liqueur,likier,kawowy,15.5,czarny i biały,Thomas Sheridan & Sons,Irlandia,Dublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,62ab6afe4a2fcedd4ce86a7a,Captain Morgan Original Spiced Gold,rum,złoty,35.0,bursztynowy,Diageo PLC,Anglia,Londyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+8,62ab6cb588a7811f65839224,Captain Morgan White Rum,rum,biały,35.0,biały,Diageo PLC,Anglia,Londyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+9,62ab6eca88a7811f65839225,She Słony Karmel,likier,mleczny,17.0,karmelowy,BZK Alco,Polska,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,62ab70624a2fcedd4ce86a7b,She Kawa Z Pomarańczą,likier,kawowy,30.0,czarny,BZK Alco,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,62ab732b88a7811f65839226,Gran Imperio Rhum Superior 7 YO,rum,złoty,38.0,bursztynowy,Distiletie Valdoglio,Włochy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+12,62ab74e788a7811f65839227,Captain Morgan Black Spiced,rum,czarny,40.0,czarny,Diageo PLC,Anglia,Londyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+13,62ab772888a7811f65839228,Havana Club Anejo 3 Anos,rum,biały,37.48,słomkowy,Diageo PLC,Anglia,Londyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+14,62ab798f88a7811f65839229,Captain Morgan Dark Rum,rum,czarny,40.0,czarny,Diageo PLC,Anglia,Londyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+15,62ab7bed88a7811f6583922a,Bacardi Carta Negra,rum,czarny,40.0,ciemnobrązowa,Santiago de Cuba,Puerto Rico,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+16,62ab7d6b88a7811f6583922b,Bacardi Spiced,rum,złoty,35.0,miedziany,Santiago de Cuba,Puerto Rico,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+17,62ab7e8e88a7811f6583922c,Kraken Black Spiced,rum,czarny,40.0,czarny,Proximo Spirits,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+18,62ab8a511595535727acda31,Malibu Original,likier,biały,18.0,biały,Malibu,hiszpania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,62ab8c2e1595535727acda32,Crema Typ Latte Macchiato,likier,mleczny,17.0,karmelowy,Stepanow,Słowacja,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,62ac5091dd8b1786279d61c2,Silvaner Trocken,wino,wytrawne,11.5,białe,Wine & More QWS GmbH,Niemcy,Rheinhessen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+21,62ac5502dd8b1786279d61c3,Cabernet Sauvignon,wino,wytrawne,12.0,czerwone,Casale ai Campi,Włochy,Veneto,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+22,62ac632cdd8b1786279d61c4,"Chardonnay Viognie, Reserva Privada",wino,wytrawne,13.0,biały,Viajero,Chile,Valle Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+23,62ac6568dd8b1786279d61c5,"Chevalier de Fauvert, Comté Tolosan",wino,półsłodkie,11.5,biały,Chevalier de Fauvert,Francja,Comté Tolosan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,62ac6a83dd8b1786279d61c6,NEGROAMARO SALENTO,wino,wytrawne,12.5,czerwony,Letentia Winery,Włochy,Puglia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+25,62ac6c9f32e5ed3756d50aa8,"Carlo Rossi Refresh, Tropical Moscato",wino,słodkie,10.5,biały,Carlo Rossi,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+26,62ad91cc4df8e18dee66ece9,"Carlo Rossi, Pink Moscato",wino,słodkie,9.0,różowy,Carlo Rossi,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+27,62ad933f4df8e18dee66ecea,Carlo Rossi Sweet Red,wino,słodkie,9.0,czerwony,Carlo Rossi,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+28,62ad948d6c6632251e9aae41,"Merlot, Cimarosa",wino,wytrawne,12.5,czerwony,Cimarosa,Chile,Valle Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+29,62ad97654df8e18dee66eceb,Chenin Blanc,wino,wytrawne,13.0,biały,Fairtrade,Południowa Afryka,Paarl,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+30,62ae1859fd38b436cf924196,Canari Salted Caramel,likier,mleczny,15.0,karmelowy,Henkell Freixenet Polska,Polska,Toruń,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,62ae1b68fd38b436cf924197,Soplica Śliwkowa,likier,owocowy,28.0,śliwkowy,CEDC International,Polska,Warszawa,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,62ae1dcbfd38b436cf924198,Lubuski Gin,gin,destylowany,37.5,biały,Henkell Freixenet Polska,Polska,Toruń,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,62ae1faefd38b436cf924199,Soplica Orzech Laskowy,likier,orzechowy,28.0,delikatnie brązowy,CEDC International,Polska,Warszawa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,62ae20f9fd38b436cf92419a,Soplica Kawowa,likier,kawowy,25.0,czarny,CEDC International,Polska,Warszawa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,62b355ec568ac44060a46d67,Dalkowski ananasowy,likier,ananasowy,16.0,biały,Henkell Freixenet Polska,Polska,Toruń,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,62b3564b568ac44060a46d68,Adam Mickiewicz,wódka,czysta,40.0,bezbarwny,BZK Alco,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+37,62b35743568ac44060a46d69,Barefoot Pinot Grigio,wino,półwytrawne,12.0,biały,BareFoot,USA,Kalifornia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,62b3576ff29d81f8393f8e52,Dictador 12YO,rum,złoty,40.0,bursztyn,Sélection Prestige GmbH,Kolumbia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+39,62b357eef29d81f8393f8e53,Absolut Vodka,wódka,czysta,40.0,bezbarwny,The Absolut Company,Szwecja,Åhus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+40,62b35875568ac44060a46d6a,"SAUVIGNON BLANC - SEMILLON, CIMAROSA",wino,wytrawne,12.0,biały,Cimarosa,Australia,South Eastern Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+41,62b35892f29d81f8393f8e54,Malibu Passion Fruit,rum,biały,18.0,biały,Malibu,hiszpania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+42,62b4391cd7995d801996d75f,Jameson,whisky,blended,40.0,bursztyn,Irish Distillers,Irlandia,Cork,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+43,62b4407ddd971448a4beeaeb,Jameson Caskmates Stout Edition,whisky,blended,40.0,karmel,Irish Distillers,Irlandia,Cork,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+44,62b4464cd7995d801996d760,Chenin Blanc South Afrika,wino,wytrawne,12.5,biały,Cimarosa,RPA,Western Cape,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+45,62b44ad7d7995d801996d761,Jack Daniel's Old No. 7,whisky,Tennessee whiskey,40.0,bursztyn,Jack Daniel Distillery,USA,Tennessee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,62b44c7ddd971448a4beeaed,Costa Azul Shiraz,wino,wytrawne,13.0,czerwony,Costa Azul,Hiszpania,Castilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+47,62b450d8dd971448a4beeaee,Jack Daniel's Gentleman Jack,whisky,Tennessee whiskey,40.0,bursztyn,Jack Daniel Distillery,USA,Tennessee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,62b45510d7995d801996d762,Serpasso Duca di Sasseta,wino,półwytrawne,14.0,czerwony,Duca di Sasseta,Włochy,Toskania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,62b45543d7995d801996d763,Jack Daniel's Single Barrel Select,whisky,Tennessee whiskey,45.0,bursztyn,Jack Daniel Distillery,USA,Tennessee,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,62b4584cdd971448a4beeaef,Dornfelder Halbtrocken,wino,półwytrawne,11.5,czerwony,Vineris,Niemcy,Rheinhessen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,62b45aabd7995d801996d764,Jim Beam,whisky,bourbon,40.0,bursztyn,Beam Suntory,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+52,62b466f2aa6a49ac4e1bd3f4,Jim Beam Devil's Cut,whisky,bourbon,45.0,ciemny bursztyn,Beam Suntory,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,62b4796daa6a49ac4e1bd3f5,Jim Beam Double Oak,whisky,bourbon,43.0,bursztyn,Beam Suntory,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,62b47db4aa6a49ac4e1bd3f6,Johnnie Walker Black Label,whisky,blended,40.0,miedź,Diageo,Szkocja,Kilmarnock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+55,62b48012c01face304ddea66,Johnnie Walker Red Label,whisky,blended,40.0,miedź,Diageo,Szkocja,Kilmarnock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+56,62b48352c01face304ddea67,Johnnie Walker Gold Label Reserve,whisky,blended,40.0,miedź,Diageo,Szkocja,Kilmarnock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+57,62b4854ac01face304ddea68,Johnnie Walker Blue Label,whisky,blended,40.0,miedź,Diageo,Szkocja,Kilmarnock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+58,62b487c8c01face304ddea69,Johnnie Walker Green Label,whisky,blended,43.0,miedź,Diageo,Szkocja,Kilmarnock,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+59,62b488965aff740017de6854,"Viura,Airen Valdepenas",wino,wytrawne,12.0,białe,Vega del Cega ,Hiszpania,Valdepeñas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+60,62b489625aff740017de6855,Portal do Minho Branco,wino,półwytrawne,10.0,białe,Portal do Minho ,Portugalia,Minho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+61,62b48a187c93cafdd7d0944a,Portal do Minho Loureiro ,wino,półwytrawne,10.5,białe,Portal do Minho,Portugalia,Minho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+62,62b48a687c93cafdd7d0944b,Chevalier de Fauvert Merlot,wino,wytrawne,13.5,czerwone,Chevalier de Fauvert,Francja,Pays d'Oc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+63,62b48ad87c93cafdd7d0944c,Vineris Bordeaux,wino,wytrawne,13.5,czerwone,Vineris,Francja,Bordeaux,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+64,62b48b185aff740017de6856,Ballantine's 12yo,whisky,blended,40.0,złoty,Pernod Ricard,Szkocja,Dumbarton,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+65,62b491167c93cafdd7d0944d,Ballantine's Finest,whisky,blended,40.0,jasnozłoty,Pernod Ricard,Szkocja,Dumbarton,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+66,62b493935aff740017de6857,Monkey Shoulder,whisky,blended,40.0,bursztyn,William Grant and Sons,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+67,62b493a47c93cafdd7d0944e,Montebuena Rioja Alavesa,wino,wytrawne,14.0,czerwony,Montebuena,Hiszpania,Rioja,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+68,62b494eb5aff740017de6858,Witosha Premium Sweet Red,wino,słodkie,17.0,czerwony,Vinex Slavyantsi,Bułgaria, Rose Valley,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+69,62b495a65aff740017de6859,Amundsen,wódka,czysta,40.0,bezbarwny,Stock Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+70,62b495c27c93cafdd7d0944f,Glenfiddich 12yo,whisky,single malt,40.0,bursztyn,William Grant and Sons,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+71,62b496737c93cafdd7d09450,Barmańska Pigwa,wódka,owocowa,21.0,pomarańczowy,Barmańska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+72,62b496a27c93cafdd7d09451,Merlot - Touriga Nacional,wino,wytrawne,12.0,czerwony,Pingo Doce,Portugalia,Tejo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+73,62b49a0b5aff740017de685e,Baileys Salted Caramel ,likier,irlandzki,17.0,,,Irlandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,62b49a2f5aff740017de685f,Astrale Rosso,wino,wytrawne,14.0,czerwony,Astrale,Włochy,Toskania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+75,62b49aa25aff740017de6860,Biały Bocian,wódka,czysta,40.0,bezbarwny,Polmos Bielsko-Biała S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+76,62b49af47c93cafdd7d09457,Glenfiddich 15yo,whisky,single malt,40.0,bursztyn,William Grant and Sons,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+77,62b49b665aff740017de6861,Bols Vodka,wódka,czysta,40.0,bezbarwny,Bols,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+78,62b49c927c93cafdd7d0945a,Chopin,wódka,czysta,40.0,bezbarwny,Chopin Distillery,Polska,Podlasie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+79,62b49cf07c93cafdd7d0945b,Tullamore D.E.W.,whisky,blended,40.0,bursztyn,William Grant and Sons,Irlandia,Tullamore,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+80,62b49d5f7c93cafdd7d0945c,"Monte da Ravasqueira, Superior Tinto",wino,wytrawne,13.5,czerwony,Monte da Ravasqueira,Portugal,Alentejano,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+81,62b49d865aff740017de6862,Beefeater London,gin,destylowany,40.0,biały,James Burrough,Londyn,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+82,62b49dd57c93cafdd7d0945d,Finlandia,wódka,czysta,40.0,bezbarwny,Brown-Forman Finland,Finlandia,Uusimaa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+83,62b49ef45aff740017de6863,Gianduia Bottega,likier,mleczny,17.0,karmelowy,United Beverages,Włochy,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+84,62b49f187c93cafdd7d0945e,Hlibny Dar,wódka,czysta,40.0,bezbarwny,National Alcohol Company LLC,Ukraina,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+85,62b49f965aff740017de6864,Chivas Regal 12yo,whisky,blended,40.0,bursztyn,Chivas Brothers,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+86,62b4a0727c93cafdd7d0945f,Krupnik Cytryna,likier,owocowy,30.0,żółty,JNT GROUP S.A.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+87,62b4a0c05aff740017de6865,Casa Hamaca,rum,biały,37.5,przezroczysty,Mundivie,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+88,62b4a1805aff740017de6866,The Singleton 12yo,whisky,single malt,40.0,złoty,Diageo,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+89,62b4a2835aff740017de6867,Saska Kawa Z Nutą Brandy,likier,kawowy,30.0,czarny,Stock Polska,Polska,Lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,62b4a2d27c93cafdd7d09460,The Singleton 15yo,whisky,single malt,40.0,bursztyn,Diageo,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+91,62b4a3425aff740017de6868,Krupnik,wódka,czysta,40.0,bezbarwny,Premium Distillers Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+92,62b4a63c7c93cafdd7d09461,Proper No. Twelve,whisky,blended,40.0,bursztyn,Old Bushmills Distillery,Irlandia,Antrim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+93,62b4a6cd7c93cafdd7d09462,Krupnik Pigwa,likier,owocowy,30.0,pomarańczowy,Premium Distillers Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94,62b4a8297c93cafdd7d09463,Krupnik Śliwka,likier,owocowy,30.0,fioletowy,Premium Distillers Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95,62b4ae6c7c93cafdd7d0946b,Maker's Mark,whisky,bourbon,45.0,bursztyn,Beam Suntory,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96,62b4afae5aff740017de686c,Lubelska Cytrynówka,likier,owocowy,30.0,żółty,Stock Polska Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+97,62b4b0415aff740017de686d,Lubelska Mango,likier,owocowy,30.0,pomarańczowy,Stock Polska Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+98,62b4b10d5aff740017de686e,Lubelska Wiśniówka,likier,owocowy,30.0,czerwony,Stock Polska Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+99,62b4b15f5aff740017de686f,Wild Turkey 101,whisky,bourbon,50.5,bursztyn,Wild Turkey Distilling,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+100,62b4b1a77c93cafdd7d0946d,Luksusowa,wódka,czysta,40.0,bezbarwny,Wyborowa S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+101,62b4b2517c93cafdd7d0946e,Biały Bocian Czarna Porzeczka,likier,owocowe,30.0,fiolet,Polmos,Polska,Bielsko-Biała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102,62b4b2967c93cafdd7d0946f,Nemiroff,wódka,czysta,40.0,bezbarwny,Nemiroff Invesments Limited,Ukraina,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+103,62b4b37f5aff740017de6870,Baileys The Original,likier,mleczny,17.0,beżowo-bursztynowy,,Irlandia,,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104,62b4b3935aff740017de6871,Ogiński Vodka,wódka,czysta,40.0,bezbarwny,Polmos Bielsko-Biała S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+105,62b4b3965aff740017de6872,Marquês de Borba Colheita Tinto,wino,wytrawne,14.0,czerwony,Marquês de Borba,Portugalia,Alentejo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+106,62b4b3b17c93cafdd7d09470,The Bushmills Original,whisky,blended,40.0,bursztyn,Old Bushmills Distillery,Irlandia,Antrim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+107,62b4b4007c93cafdd7d09471,Ostoya,wódka,czysta,40.0,bezbarwny,Wyborowa S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+108,62b4b4637c93cafdd7d09472,Pan Tadeusz,wódka,czysta,40.0,bezbarwny,Wyborowa S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+109,62b4b4af5aff740017de6873,Bombay Sapphire London Dry,gin,destylowany,40.0,przezroczysty,Bombay Spirits Company,Anglia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+110,62b4b52d7c93cafdd7d09473,Parkowa,wódka,czysta,38.0,bezbarwny,BZK ALCO S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+111,62b4b5357c93cafdd7d09474,Bushmills Black Bush,whisky,blended,40.0,bursztyn,Old Bushmills Distillery,Irlandia,Antrim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+112,62b4b5765aff740017de6874,Dry Reserve Malbec,wino,wytrawne,13.5,czerwony,Grupo Peñaflor,Argentyna,Mendoza,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+113,62b4b5d17c93cafdd7d09475,Sopica Cytryna-Pigwa,likier,owocowy,28.0,żółty,CEDC International sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+114,62b4b5fb7c93cafdd7d09476,Green Gin,gin,destylowany,37.5,przezroczysty,Henkell Freixenet Polska Sp. z o.o. ,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+115,62b4b6967c93cafdd7d09477,Bushmills 10yo,whisky,single malt,40.0,bursztyn,Old Bushmills Distillery,Irlandia,Antrim,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+116,62b4b6fa7c93cafdd7d09478,Soplica Cytrynowa Z Nutą Miodu,likier,owocowa,28.0,żółty,CEDC International sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+117,62b4b7507c93cafdd7d09479,Vinho Regional Lisboa,wino,półwytrawne,13.5,czerwony,Grupo Peñaflor,Lisbna,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+118,62b4b7bf5aff740017de6875,Soplica Wiśniowa,likier,owocowy,28.0,czerwony,CEDC International Sp. zo.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+119,62b4b80e7c93cafdd7d0947a,Toruńska Ziemniaczana,wódka,czysta,40.0,bezbarwny,PUH Chemirol Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+120,62b4b87c7c93cafdd7d0947b,Żołądkowa de Luxe,wódka,czysta,40.0,bezbarwny,Stock Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+121,62b4b8a85aff740017de6876,Gordon's Sicilian Lemon,gin,destylowany,37.5,żółty,Gordon's London Dry Gin,Wielka Brytania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+122,62b4b8f67c93cafdd7d0947c,Mucho Más Tinto N.V.,wino,wytrawne,14.0,czerwony,Félix Solís,Spain, Castilla y Leon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+123,62b4b90b7c93cafdd7d0947d,Bell's Original,whisky,blended,40.0,miedź,Diageo,Szkocja,Moray,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+124,62b4ba047c93cafdd7d0947e,Żubrówka Biała,wódka,czysta,40.0,przezroczysty,CEDC International Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+125,62b4bac37c93cafdd7d0947f,Żubrówka Bison Grass,wódka,smakowa,37.5,przezroczysty,CEDC International Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+126,62b4bb237c93cafdd7d09480,Żytniówka,wódka,czysta,38.0,przezroczysty,CEDC International Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+127,62b4bb4f5aff740017de6877,Mosel lieblich,wino,półsłodke,9.5,biały,Pamona Cellars,Niemcy,Mosel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+128,62b4bbc67c93cafdd7d09481,Mount Gay Barbados Rum Black Barrel,rum,złoty,43.0,bursztynowy,Mount Gay Distilleries,Barbados,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+129,62b4bd3e7c93cafdd7d09482,Pinot Grigio delle Venezie IGP,wino,wytrawne,12.0,biały,Guilto Pasotti,Włochy,Veneto,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+130,62b4be477c93cafdd7d09483,Blended whisky Akashi,whisky,blended,40.0,bursztyn,Eigashima Shuzo,Japonia,Prefektura Hyōgo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+131,62b4bff15aff740017de6879,The Glenlivet 12yo,whisky,single malt,40.0,jasnozłoty,Pernod Ricard,Szkocja,Speyside,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+132,62b4c0265aff740017de687a,SIERRA Silver Tequila,tequila,czysta,38.0,przezroczysty,Destileria Sierra S.A. de C.V.,Meksyk,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+133,62b4c1af7c93cafdd7d09485,"Zinfandel Rose, Cimarosa",wino,półsłodkie,10.0,różowy,Cimarosa,USA,California,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+134,62b4c2165aff740017de687b,The Glenlivet 15yo,whisky,single malt,40.0,złoty,Pernod Ricard,Szkocja,Speyside,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+135,62b4c38a5aff740017de687c,"Ruby Cabernet USA, Cimarosa",wino,wytrawne,12.5,czerwony,Cimarosa,USA,Kalifornia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+136,62b4c4e87c93cafdd7d09486,"Shiraz Australia, Cimarosa",wino,wytrawne,13.5,czerwony,Cimarosa,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+137,62b4c58b7c93cafdd7d09487,Passport Scotch,whisky,blended,40.0,bursztyn,Pernod Ricard,Szkocja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+138,62b4c63e7c93cafdd7d09489,"Merlot Reserva Privada, Viajero",wino,wytrawne,12.5,czerwony,Viajero,Chile,Valle Central,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+139,62b4c8927c93cafdd7d0948a,"Almocreve Tinto, Alentejano",wino,wytrawne,13.5,czerwony,ALMOCREVE,Portugalia,Alentejo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+140,62b4cab85aff740017de687e,"Rosé South Africa, Cimarosa",wino,półwytrawne,11.5,różowy,,RPA,Western Cape,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+141,62b4ceab7c93cafdd7d0948f,Mezei Cuvée Bükki Muskotály,wino,półsłodki,10.5,biały,Mezei,Węgry,Bűkk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+142,62b4d0257c93cafdd7d09491,Ardbeg 10yo,whisky,single malt,46.0,złoty,Ardbeg distillery,Szkocja,Wyspa Islay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+143,62b4d0f17c93cafdd7d09492,Coonawarra Cabernet Sauvignon,wino,wytrawne,13.5,czerwony,Vineris,Australia,Coonawarra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+144,62b4d1e75aff740017de6881,Old Pulteney 12yo,whisky,single malt,40.0,bursztyn,Old Pulteney distillery,Szkocja,Caithness,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+145,62b4d3227c93cafdd7d09493,Old Pulteney 15yo,whisky,single malt,46.0,bursztyn,Old Pulteney distillery,Szkocja,Caithness,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+146,62b4d47b5aff740017de6882,Żołądkowa Gorzka,likier,owocowy,34.0,pomarańczowy,Stock Polska Sp. z o. o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+147,62b4d63d7c93cafdd7d09495,Glenmorangie The Lasanta,whisky,single malt,43.0,bursztyn,Glenmorangie distillery,Szkocja,Ross-shire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+148,62b4d70a5aff740017de6883,Stumbras,wódka,czysta,40.0,przezroczysty,AB MV GROUP Production,Litwa,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+149,62b4d7cf7c93cafdd7d09497,Glenmorangie The Quinta Ruban,whisky,single malt,46.0,bursztyn,Glenmorangie distillery,Szkocja,Ross-shire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+150,62b4d9955aff740017de6885,Bulleit,whisky,bourbon,45.0,bursztyn,Diageo,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+151,62b4db5a7c93cafdd7d09499,Ciroc,wódka,czysta,40.0,przezroczysty,CIROC Distilling Company,Francja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+152,62b4db687c93cafdd7d0949a,Bulleit 10yo,whisky,bourbon,45.6,bursztyn,Diageo,USA,Kentucky,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+153,62b4dbf85aff740017de6886,Stock Cranberry,wódka,smakowa,37.5,przezroczysty,Stock Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+154,62b4dca75aff740017de6887,Czarnoleska,wódka,czysta,38.0,przezroczysty,Lidl sp. z o.o.,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+155,62b4dd555aff740017de6888,Stock Citron,wódka,smakowa,37.5,przezroczysty,Stock Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+156,62b4ddc25aff740017de6889,Polna,wódka,czysta,38.0,przezroczysty,Grupa AWW Sp. z o.o.,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+157,62b4def47c93cafdd7d0949d,Mołdawski Smak,wino,półsłodkie,12.0,białe,,Mołdawia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+158,62b4e0267c93cafdd7d0949e,Liebfraumilch,wino,półsłodkie,8.5,białe,Pamona Cellars GmbH,Niemcy,Rheinhessen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+159,62b4e2b97c93cafdd7d094a1,Paderewski,wódka,czysta,40.0,przezroczysty,Polska Fabryka Wódek Old Distillery Poznań,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+160,62b4ebe87c93cafdd7d094a2,Absolwent Cytrynówka,likier,owocowy,32.0,żółty,Polmos Białystok,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+161,62b4ec475aff740017de688c,Absolwent Grejpfrutowy,likier,owocowy,32.0,różowy,Polmos Białystok,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+162,62b55e15973d6c6264867888,Jam Session,piwo,Session Hazy IPA,5.6,jasne,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+163,62b55ea101bc976edbd13a6e,Poco Loco,piwo,Sour Ale,3.5,jasne,Browar Moczybroda,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+164,62b568ab01bc976edbd13a6f,Sourtime Mango,piwo,Imperial IPA,8.5,jasne,Browar Maryensztadt,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+165,62b56ad601bc976edbd13a70,Nektar Bogów,piwo,Sour Ale,3.5,jasne,Browar Moczybroda,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+166,62b56bef973d6c6264867889,Jose Sangria,piwo,Gose,3.4,pomarańczowy,Browar Nepomucen,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+167,62b56ca2973d6c626486788a,Cherry Elephant,piwo,Ale,5.0,czerwone,Browar Błonie,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+168,62b56f0b973d6c626486788b,Fortuna Wiśnia,piwo,lager,5.1,czerwone,Browar Fortuna,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+169,62b56fd801bc976edbd13a73,Miłosław Witbier,piwo,Witbier,4.8,jasne,Browar Fortuna z Miłosławia,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+170,62b57076973d6c626486788f,Topaz,piwo,American Weizen,5.2,jasne,Inne beczki,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,62b570c9973d6c6264867890,Klasyka Waszczuków Pszeniczne,piwo,Weizen,5.2,jasne,Browar Waszczukowie,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+172,62b570ec01bc976edbd13a75,Komes Barley Wine,piwo,barley wine,12.0,ciemne,Browar Fortuna,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+173,62b57132973d6c6264867891,Śmietanka,piwo,Weizen,5.0,złoty,Jan Olbracht Rzemieślniczy,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+174,62b5718d01bc976edbd13a76,Raciborskie Klasycznie Warzone Ciemne,piwo,Traditional Bock,7.0,ciemne,Browar Zamkowy,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+175,62b5721901bc976edbd13a77,Komes Porter Bałtycki,piwo,Baltic Porter,9.0,ciemne,Browar Fortuna,Polska,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+176,62b57240973d6c6264867892,Pinta Bawarka,piwo,Hefewiezen,5.69,jasne,Browar PINTA,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+177,62b5727201bc976edbd13a78,Cyber,piwo,Gose,5.2,jasne,Rock Browar Jarocin,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+178,62b57300973d6c6264867893,Sundae Banana Split 3,piwo,Pastry Sour IPA,5.4,jasne,Browar NOOK,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+179,62b5730201bc976edbd13a7b,Raciborskie Klasyczne,piwo,Lager,5.0,jasne,Browar Zamkowy,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,62b57313973d6c6264867894,Komes Potrójny Złoty,piwo,Belgian Tripel,9.0,jasne,Browar Fortuna,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+181,62b573c101bc976edbd13a7c,Cieszyńskie Mastne,piwo,Mastne,5.8,jasne,Browar Zamkowy Cieszyn,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+182,62b5744701bc976edbd13a7d,Komes Russian Impe­rial Stout,piwo,RIS,12.0,ciemne,Browar Fortuna,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+183,62b574c2973d6c6264867895,Kormoran Jasny Bezglutenowy,piwo,pilsner,5.2,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+184,62b5754601bc976edbd13a80,Gelato Ice Cream Sour,piwo,Sour,5.0,jasne,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+185,62b5759f973d6c6264867896,ACIDO Fruit Saison,piwo,Fruit Saison,5.6,jasne,Browar Nepomucen,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+186,62b57600973d6c6264867898,Pinta Kellerski,piwo,Kellerbier,5.8,jasne,Browar Zamkowy Cieszyn,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+187,62b5760d973d6c6264867899,Toucan,piwo,Tropical IPA,5.59,jasne,Browar Nepomucen,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+188,62b5766b973d6c626486789b,Summer Time Miami Sunset ,piwo,Stout,4.4,ciemne,Rock Browar Jarocin,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+189,62b57696973d6c626486789c,Miami,piwo,Pale Lager,4.6,jasne,Inne beczki,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+190,62b576de973d6c626486789d,Don Papa Rum Gangsta,piwo,RIS,7.5,ciemne,Rock Browar Jarocin,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+191,62b57729973d6c626486789f,Tea Essence,piwo,DDH IPA,6.3,jasne,Browar Raduga,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+192,62b5773601bc976edbd13a83,Blackcurrant,piwo,Sour Ale,4.0,ciemny róż,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+193,62b5775d01bc976edbd13a84,Wheeler,piwo,Dry Stout,4.1,ciemne,,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+194,62b577b8973d6c62648678a0,Baltic Pina Colada,piwo,Imperial Baltic Porter,10.0,ciemne,Browar NOOK,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+195,62b577e401bc976edbd13a85,Thai,piwo,Witbier,4.5,jasne,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+196,62b5787f01bc976edbd13a86,Breakfast Stout Rwanda Coffe Milk,piwo,Stout,7.0,ciemne,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+197,62b57d3f01bc976edbd13a89,Choco Stout,piwo,Stout,6.0,ciemne,,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+198,62b5871901bc976edbd13a94,Cydr lubelski klasyczny,cydr,musujący,4.5,przezroczysty,Ambra S.A.,Polska,Lubelszczyzna,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+199,62d1bb5e0f95370144ad09e2,Harnaś Jasne Pełne,piwo,Lager,5.9,jasny,Carlsberg Polska SA,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+200,62d1bf360f95370144ad09e3,Kozel Cerny,piwo,Ciemny lager,3.8,Ciemny,Velke Popovice,Czechy,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+201,62d1c1ba67f2cead669cc83f,Kozel Lezak,piwo,Bohemian Pilsener,4.6,Jasny,Velke Popovice,Czechy,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+202,62d1c35e67f2cead669cc841,Okocim Mocne Dubeltowe,piwo,Lager,6.5,,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,62d1c4ec67f2cead669cc842,Žatecký Světlý Ležák,piwo,Pilsner,5.0,Jasne,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+204,62d1cea567f2cead669cc843,Longston London Dry Gin,gin,destylowany,37.5,przezroczysty,Jeronimo Martins Polska S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+205,62d1d0df0f95370144ad09e4,Velluto Latte Macchiato,likier,kawowy,16.0,karmelowy,BARTEX Bartol Sp. z o.o. sp. k.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+206,62d1d2820f95370144ad09e5,Sailor Jerry Spiced,rum,złoty,40.0,złoty,Sailor Jerry Rum Girvan,Szkocja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+207,62d1d4240f95370144ad09e6,Lubuski Gin Fresh Lime,gin,destylowany,37.5,przezroczysty,Henkell Freixenet Polska,Polska,Toruń,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+208,62d1d52a67f2cead669cc844,Lubuski Gin Bitter Orange,gin,destylowany,37.5,przezroczysty,Henkell Freixenet Polska,Polska,Toruń,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+209,62d1d64e0f95370144ad09e7,Gordon's London Dry Gin,gin,destylowany,37.5,przezroczysty,Gordon's London Dry Gin,Wielka Brytania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+210,62d1d77667f2cead669cc845,Gordon's Premium Pink,gin,destylowany,37.5,różowy,Gordon's London Dry Gin,Wielka Brytania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+211,62d1d97267f2cead669cc847,Bacardi Coconut Rum,rum,biały,32.0,przezroczysty,Santiago de Cuba,Puerto Rico,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+212,62d1da7567f2cead669cc848,Bacardi Razz,rum,owocowy,32.0,przezroczysty,Santiago de Cuba,Puerto Rico,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+213,62d1dd4067f2cead669cc84d,Lubieżny Truteń,piwo,miodowe,5.6,ciemny,Gospodarstwo Pasieczne Sądecki Bartnik sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,62d2b23380b3793f8df2f1d5,Tatra Jasne Pełne,piwo,Pale Lager,5.8,Jasny,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+215,62d2b6e40a892c53fd2f9d23,Kasztelan Niepasteryzowane,piwo,Pale Lager,4.6,Jasne,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+216,62d2c07b0a892c53fd2f9d24,Kustosz Jasne,piwo,Pale Lager,6.0,Ciemnozłoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+217,62d2c4400a892c53fd2f9d25,Warka Strong,piwo,Strong Lager,6.3,bursztynowy,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+218,62d2cee8df62b5ef2ca55d30,Łomża Jasne,piwo,Pale Lager,5.7,jasny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+219,62d5afb020512ec9fa9a0dd3,Amarena Wiśnia,wino,słodkie,12.0,wiśniowy,BARTEX Bartol Sp. z o.o. sp. k.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+220,62d5b03e20512ec9fa9a0dd4,Amarena Brzoskwinia,wino,słodkie,12.0,żółty,BARTEX Bartol Sp. z o.o. sp. k.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+221,62d5b1dc261cef93844b9dd2,Biały Bocian Cytryna,likier,owocowe,30.0,szaro-żółty,Polmos,Polska,Bielsko-Biała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,62d5b25b261cef93844b9dd3,Biały Bocian Pigwa,likier,owocowy,30.0,delikatnie brązowy,Polmos,Polska,Bielsko-Biała,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+223,62d5b3e120512ec9fa9a0dd5,Żołądkowa Gorzka Rześka Limonka Z Miętą,likier,owocowy,30.0,żółty,Stock Polska Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+224,62d5b4a0261cef93844b9dd4,Żołądkowa Gorzka Rześka Pigwa Z Miętą,likier,owocowy,30.0,żółty,Stock Polska Sp. z o.o.,Polska,,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,62d5b5fd20512ec9fa9a0dd6,Grzaniec Galicyjski Red Hot Chilli,wino,deserowe,13.5,czarny,JNT Group S.A. Sp.K.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+226,62d5b69b20512ec9fa9a0dd7,Grzaniec Galicyjski Red Hot Chilli Miodowy,wino,deserowe,12.0,żółty,JNT Group S.A. Sp.K.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+227,62d5b84320512ec9fa9a0dd8,Vigor Vodka Original,wódka,czysta,37.5,przezroczysty,Badel,Chorwacja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+228,62d6fc650ca0c23c954f1e82,Leniwe Chwile New England IPA,piwo,ipa,6.0,żółty,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+229,62d6fe4da1e9b0305bc55484,Cichy Wieczór Żytnie Bawarskie,piwo,roggenbier,5.6,jasno brązowe,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+230,62d6ffb90ca0c23c954f1e83,Święty Spokój Earl Grey IPA,piwo,ipa,6.4,jasno brązowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+231,62d70166a1e9b0305bc55485,Letnia Przygoda Lekka Ipa,piwo,ipa,4.0,jasno brązowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+232,62d70358a1e9b0305bc55486,Czas Letni,piwo,lager,4.5,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+233,62d704a50ca0c23c954f1e84,Pełen Luz Black Ipa,piwo,ipa,6.5,ciemno brązowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+234,62d707e3a1e9b0305bc55487,Pełnia Życia West Coast Ipa,piwo,ipa,6.5,jasno brązowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+235,62d70a0ca1e9b0305bc55488,Na Wypasie Session Ipa,piwo,ipa,4.3,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+236,62d70bc60ca0c23c954f1e85,Długi Weekend Pilsner,piwo,pilsner,5.0,złoty,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+237,62d70d700ca0c23c954f1e86,Dzień Wolny Pszeniczne,piwo,przeniczne,5.6,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+238,62d70e7c0ca0c23c954f1e87,Dobrze Jest White Ipa,piwo,ipa,5.6,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+239,62d710260ca0c23c954f1e88,Warto Strzelić Pilsner,piwo,pilsner,5.0,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+240,62d83a7f7e5961377764ed35,Błogi Stan New Zeland Ipa,piwo,ipa,6.0,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+241,62d83b76689adcdd136d5aa6,Dębowe Dojrzałe Mocne,piwo,Strong Lager,7.0,ciemnozłoty,Kompania Piwowarska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+242,62d83bcc689adcdd136d5aa7,Dzika Radość Podwójna Owsiana Ipa,piwo,ipa,8.0,słomkowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+243,62d83e2e689adcdd136d5aa8,Komes Poczwórny Bursztynowy,piwo,belgijskie,10.0,bursztynowy,Browar Fortuna Sp. z o.o. sp. k.,Polska,Miłosław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,62d83faa689adcdd136d5aa9,Żywiec Jasne Pełne,piwo,Pale Lager,5.6,jasny,Grupa Żywiec S.A.,Polska,Żywiec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+245,62d8405e7e5961377764ed36,Komes Russian Imperial Stout Bourbon Barrel Aged,piwo,russian imperial stout,18.0,ciemny,Browar Fortuna Sp. z o.o. sp. k.,Polska,Miłosław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+246,62d842fc7e5961377764ed37,Buh Uwolnij Buha,piwo,ale,5.0,słomkowy,Browar Tenczynek,Polska,Tenczynek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+247,62d845cf689adcdd136d5aaa,Browar Widawa Winter Ale,piwo,ale,5.5,słomkowy,Browar Widawa,Polska,Chrząstawa Mała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+248,62d84815689adcdd136d5aab,Browar Widawa Piwo Świąteczne,piwo,ale,6.0,ciemnobrązowe,Browar Widawa,Polska,Chrząstawa Mała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+249,62d849de689adcdd136d5aac,Bojan Truskawkowe Ice Cream Lager,piwo,lager,4.2,jasno różowa,Browar Bojanowo,Polska,Bojanowo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+250,62d84b5d7e5961377764ed38,Bojan Marakuja Owocowe,piwo,lager,4.5,złociste,Browar Bojanowo,Polska,Bojanowo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+251,62d84c617e5961377764ed39,Lech Premium,piwo,Lager,5.0,jasne,Kompania Piwowarska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+252,62d84fcd689adcdd136d5aad,Okocim Jasne Okocimskie,piwo,Lager,5.2,jasne,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+253,62d8515b7e5961377764ed3a,Żubr,piwo,Pale Lager,6.0,jasne,Kampania Piwowarska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+254,62d855447e5961377764ed3b,Kustosz Mocne,piwo,Strong Premium Pils,7.2,jasne,"Zakłady Piwowarskie ""Głubczyce"" S.A.",Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+255,62d856f4689adcdd136d5aae,Heineken,piwo,Pale Lager,5.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+256,62d85baf689adcdd136d5aaf,Namysłów Pils,piwo,Pils,5.8,jasne,Grupa Żywiec S.A.,Polska,Namysłów,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+257,62d85e657e5961377764ed3c,Heineken SILVER,piwo,lager,4.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+258,62d860817e5961377764ed3d,Tyskie Gronie,piwo,pale lager,5.2,złoty,Kompania Piwowarska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+259,62d9c631838a1d0bb494d051,Browar Łańcut Idzie Zima,piwo,ale,6.4,ciemno brązowy,Browar Łańcut,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+260,62d9c73ec502bfdaeafe5197,Owsiane z Gniezna,piwo,owsiane,5.2,słomkowy,Dobry Browar,Polska,Gniezno,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+261,62d9c8a3838a1d0bb494d052,Jurajskie Świąteczne,piwo,ale,5.5,czarny,Browar na Jurze Sp. J.,Polska,Zawiercie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+262,62d9c9a1c502bfdaeafe5198,Samotny Jeździec,piwo,pilzner,4.5,słomkowy,Browar Maryensztadt,Polska,Zwoleń,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+263,62d9cbc7838a1d0bb494d053,Dzień Dobry American Pale Ale,piwo,ale,0.5,jasny,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+264,62d9ccbc838a1d0bb494d054,Siła Spokoju Imperialny Stout,piwo,stout,10.0,czarny,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+265,62d9cdce838a1d0bb494d055,Spotkanie przyjaciół Koźlak,piwo,koźlak,7.0,czarny,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+266,62d9ceabc502bfdaeafe5199,Strefa Relaksu Stout,piwo,stout,5.8,czarny,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+267,62d9cf66838a1d0bb494d056,Uśmiech losu Sour Ale,piwo,sour,4.2,jasno czerwony,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+268,62d9d02d838a1d0bb494d057,Wieczorową Porą Żytnia IPA,piwo,ipa,6.0,brązowy,BROWAR ZA MIASTEM Sp. z o.o. SKA,Polska,Rumianek,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+269,62dc423d452759498de29d69,Barlow Sorbus,piwo,barley wine,10.5,ciemny rubin,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+270,62dc457cafd21a9816013be0,Cornus Lupus,piwo,odparowany porter bałtycki,10.48,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+271,62dc4774afd21a9816013be1,Imperium Prunum,piwo,imperialny porter bałtycki,10.51,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+272,62dc48fb452759498de29d6a,Terra Donum,piwo,braggot,10.5,brunatno-burgundowy,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+273,62dc4a33afd21a9816013be2,Astus Malum,piwo,imperial graff,11.5,zółto-pomarańczowy,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+274,62dd294df12326d8b3e521dd,Perła Chmielowa,piwo,pils,6.0,złocisty,Perła – Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+275,62dd2e7ef12326d8b3e521de,1 na 100 Pigwowiec i Miód,piwo,fruit & honey ale,1.0,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+276,62dd2fb1d1f50b95cb0c8f30,1 na 100 Lite APA,piwo,APA,1.0,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+277,62dd316bf12326d8b3e521df,Warmińskie Rewolucje,piwo,lager,5.2,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+278,62dd32cad1f50b95cb0c8f31,Świeże Pasteryzowane,piwo,lager,6.2,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+279,62dd336cd1f50b95cb0c8f32,Kasztelan Jasne Pełne,piwo,pilsner,5.7,złoty,Carlsberg Polska,Polska,Sierpc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+280,62dd3383d1f50b95cb0c8f33, Irish Beer,piwo,lager,6.5,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+281,62dd4458160b7c500448abf8,Książęce Weizen,piwo,weissbier,5.3,jasne,Kompania Piwowarska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+282,62dd9a8a5ef6265fb6823107, Podróże Kormorana Witbier,piwo,witbier,4.6,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+283,62dd9bc35ef6265fb6823108, Podróże Kormorana American IPA,piwo,AIPA,6.5,bursztynowy,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+284,62dd9cf25ef6265fb6823109,Kormoran Jasny,piwo,pilsner,5.2,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,62e2e10abefa085863c95e4d,Kormoran Ciemny,piwo,ciemne,4.5,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+286,62e2e1e1c66a7f19832766b0,Śliwka w Piwie,piwo,lager,4.4,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+287,62e2e2c5c66a7f19832766b1,Porter Warmiński,piwo,porter,9.0,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+288,62e2e3d6befa085863c95e4e,Porter Warmiński z Wiśnią,piwo,porter,8.5,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+289,62e2e4bec66a7f19832766b2,Miodne,piwo,miodowe,5.7,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+290,62e2e656c66a7f19832766b3,Świąteczne,piwo,ciemne,5.6,ciemne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+291,62e2e768befa085863c95e4f,Wiśnia w Piwie,piwo,lager,4.7,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+292,62e5a16bd4e730d1e4488e5c,Krzepkie,piwo,lager,7.4,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+293,62e5a2708ee2310d116aca78,Marcowe,piwo,lager,5.8,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+294,62e5a39d8ee2310d116aca79,Kormoran Złoty,piwo,lager,5.8,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+295,62e5a4628ee2310d116aca7a,Kormoran ALE,piwo,EPA ,5.1,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,62e5a5688ee2310d116aca7b,Kormoran APA,piwo,APA,4.8,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+297,62e5a6348ee2310d116aca7c,Oktawian,piwo,pils,4.8,jasne,Browar Kormoran,Polska,Warmińsko-mazurskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+298,62e665386559e7a36a34fd57,Bojan Toporek,piwo,lager,6.0,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+299,62e6660a6ec5f8379ef6221f,Bojan Tradycyjne,piwo,lager,4.8,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+300,62e666b76559e7a36a34fd58,Bojan Pszeniczne,piwo,Hefe-Weizen,4.2,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+301,62e667496ec5f8379ef62220,Bojan Pils,piwo,pils,5.0,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+302,62e668316ec5f8379ef62221,Bojan Jasne Pełne,piwo,lager,4.8,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+303,62e668de6559e7a36a34fd59,Bojan Porter,piwo,porter,9.0,ciemne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+304,62e66be16ec5f8379ef62222,Bojan AIPA,piwo,AIPA,5.8,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+305,62e66c516ec5f8379ef62223,Bojan APA,piwo,APA,4.5,jasne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+306,62e66cd76559e7a36a34fd5a,Bojan Ciacho,piwo,Stout,5.0,ciemne,Browar Bojanowo,Polska,Wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,62e682ca4b51ceb70532f8ae,Ciechan Wyborne,piwo,lager,6.0,jasne,Browar Ciechan,Polska,Mazowieckie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+308,62e683cc1f84da870bcaadf0,Ciechan Pszeniczne,piwo,weissbier,4.8,jasne,Browar Ciechan,Polska,Mazowieckie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+309,62e684a44b51ceb70532f8af,Ciechan Lagerowe,piwo,lager,6.0,jasne,Browar Ciechan,Polska,Mazowieckie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,62e685901f84da870bcaadf1,Ciechan Miodowe,piwo,miodowe,5.7,jasne,Browar Ciechan,Polska,Mazowieckie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+311,62e687c31f84da870bcaadf3,Ciechan Porter,piwo,porter,9.0,ciemne,Browar Ciechan,Polska,Mazowieckie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+312,62e6896c4b51ceb70532f8b0,Amber APA,piwo,APA,5.2,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+313,62e68a5a4b51ceb70532f8b1,Amber Czarny Bez,piwo,lager,5.5,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+314,62e68bb21f84da870bcaadf4,Amber Naturalny,piwo,lager,5.7,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+315,62e68c644b51ceb70532f8b2,Johannes,piwo,lager,6.5,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+316,62e68d051f84da870bcaadf5,Argus Radler,piwo,radler,0.0,jasne,Lidl,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+317,62e68d291f84da870bcaadf6,Złote Lwy,piwo,lager,5.6,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+318,62e68d864b51ceb70532f8b4,Argus Free,piwo,lager,0.0,jasne,Lidl,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+319,62e68dd91f84da870bcaadf8,Argus Radler jabłko + gruszka,piwo,radler,0.0,jasne,Lidl,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+320,62e68ddc4b51ceb70532f8b5,Grand Imperial Porter Chili,piwo,porter,8.0,ciemne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+321,62e68e601f84da870bcaadf9,Argus Radler o smaku wiśniowym,piwo,radler,0.0,jasne,Lidl,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+322,62e68e7e1f84da870bcaadfa,Grand Imperial Porter,piwo,porter,8.0,ciemne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+323,62e68ec11f84da870bcaadfb,Desperados Virgin 0,piwo,aromatyzowane,0.0,jasne,Grupa Żywiec,Holandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+324,62e68f8a1f84da870bcaadfc,Amber Koźlak,piwo,koźlak,6.5,ciemne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+325,62e68fe81f84da870bcaadfd,Desperados Strawberry Margarita,piwo,aromatyzowane,3.0,jasne,Grupa Żywiec,Holandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+326,62e690291f84da870bcaadfe,Piwo Żywe,piwo,lager,6.2,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+327,62e690781f84da870bcaadff,Garage Kamikaze,piwo,napój piwny,4.6,niebieski,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+328,62e6913a1f84da870bcaae00,Pszeniczniak,piwo,weissbier,5.2,jasne,Browar Amber,Polska,Pomorskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+329,62e691994b51ceb70532f8b7,Garage Strawberry Margarita,piwo,napój piwny,4.6,czerwony,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+330,62e691f11f84da870bcaae01,Hardmade Strawberry Crush 0,piwo,napój piwny,0.0,czerwony,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+331,62e6925f1f84da870bcaae02,Hardmade Rhubarb Crush 0,piwo,napój piwny,0.0,pomarańczowy,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+332,62e692b01f84da870bcaae03,Somersby Pear 0,piwo,napój piwny,0.0,żółty,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+333,62e6946c1f84da870bcaae04,Somersby Watermelon,piwo,napój piwny,4.5,czerwony,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+334,62e695111f84da870bcaae05,Somersby Mango and Lime,piwo,napój piwny,4.5,pomarańczowy,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+335,62e695b41f84da870bcaae06,Somersby Piña Colada,piwo,napój piwny,4.5,żółty,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+336,62e695f84b51ceb70532f8b8,Somersby Strawberry and Kiwi,piwo,napój piwny,4.5,czerwony,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+337,62e696a01f84da870bcaae07,Somersby Strawberry and lime 0,piwo,napój piwny,0.0,czerwony,Calsberg Polska,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+338,62e697a21f84da870bcaae08,Warka Radler cytryna 0,piwo,radler,0.0,jasne,Grupa Żywiec,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+339,62e7ff7eda95b481d3367a30,Karmi Mrożona Kawa,piwo,non-alcoholic dark lager,0.0,ciemny,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+340,62e9519441d88440e706e949,Bojan quantum brewing density matrix,piwo,ipa,7.0,jasny,Browar Bojanowo,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+341,62e960946400785f54723b22,Holba Premium 12°,piwo,lager,5.2,bursztynowy,Pivovar Holba A.S.,Czechy,Jesioniki,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+342,62e968c66400785f54723b23,Trzech Kumpli Starter,piwo,Saison,3.6,słomkowy,Trzech Kumpli - Browar Lotny,Polska,Żywiec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+343,62e970056400785f54723b24,Trzech Kumpli Otwarcie Sezonu,piwo,saison,5.5,jasny,Trzech Kumpli - Browar Lotny,Polska,Żywiec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+344,62e974b06400785f54723b25,Krušovice Royal Pale Lager,piwo,lager,5.0,jasne,Heineken International Corporation,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+345,62e9781b6400785f54723b26,Noteckie Jasne Pełne,piwo,lager,5.6,jasny,Browar Czarnków,Polska,wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+346,62e979a42b312a526d439969,Heineken 0.0,piwo,non-alcoholic lager,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+347,62e97b782b312a526d43996a,Komes Porter Malinowy,piwo,porter,8.5,ciemne,Browar FORTUNA Sp. z o.o.,Polska,wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+348,62e97e1d6400785f54723b27,Moczybroda Brain Smasher,piwo,ipa,7.0,żółty,Browar Moczybroda,Polska,Sady,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+349,62e980dd2b312a526d43996b,Wrężel Big Game FIVE,piwo,ipa,12.2,ciemne,Browar Wrężel S.A.,Polska,Zarzecze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+350,62e987796400785f54723b28,Grimbergen Blonde,piwo,klasztorne,5.5,żółty,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+351,62e98d176400785f54723b29,Górnośląskie Jasne Pełne,piwo,lager,5.0,jasne,Van Pur S.A.,Polska,Zabrze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+352,62ea3fa3a722a553c96e6365,Żywiec Pszeniczne IPA,piwo,pszeniczna IPA,4.8,jasno-złoty,Grupa Żywiec S.A.,Polska,"Żywiec, Cieszyn",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+353,62eaa24e7d5df8e6ebf4f11e,Paulaner Weissbier Non-Alcoholic 0,piwo,pszeniczne,0.0,żółty, Paulaner Brauerei GmbH & Co. KGaA,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+354,62ed262425f312935ccd170f,Captain Jack Exotic Daiquiri,piwo,smakowe,6.0,karmelowy,Kompania Piwowarska S.A.,Polska,Poznań,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+355,62ed2cca25f312935ccd1711,"Argus Radler 0,0 Cytryna + Mięta + Kwiat Czarnego Bzu",piwo,radler,0.0,słomkowy,Browary Łódzkie S.A.,Polska,Łódź,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+356,62ed315b012b14391d7c7949,Perlenbacher Premium Pils,piwo,pils,4.9,słomkowy,Browaru Frankfurter Brauhaus GmbH,Niemcy,Frankfurt nad Odrą,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+357,62ed35cf25f312935ccd1714,Bavaria 0.0 Ginger  Lime,piwo,radler,0.0,słomkowy,Royal Swinkels Family Brewers,Holandia,Lieshout,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+358,62ed49f3695b2f2c2087fed4,Widawa Hej Przygodo,piwo,ale,4.7,jasne,Browar Widawa,Polska,Chrząstawa Mała,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+359,62ed4cbf695b2f2c2087fed5,Tyskie 0,piwo,non-alcoholic lager,0.0,jasne,Kompania Piwowarska S.A.,Polska,Poznań,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+360,62ed4fff695b2f2c2087fed6,Kingpin Ricochet,piwo,ipa,7.5,jasne,Browar Zarzecze,Polska,Zarzecze,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+361,62ed57d1429366b2336104f4,Birbant Saga,piwo,ipa,5.7,jasne,Browar Zarzecze,Polska,Pietrzykowice,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+362,62ed5a14429366b2336104f5,Lech Pils,piwo,pils,5.5,jasne,Kompania Piwowarska S.A.,Polska,wielkopolska,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+363,62ed5df9429366b2336104f6,Perlenbacher Pils,piwo,pils,4.9,słomkowy,Mauritius Brauerei Zwickau,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+364,62ef9811c0476a3f9a054624,EB Premium,piwo,pale lager,5.2,złocisty,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+365,62ef9987d23313e11a670d88,"Żywiec 0,0",piwo,non-alcoholic lager,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+366,62ef9b31c0476a3f9a054625,Tatra Mocne,piwo,strong lager,7.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+367,62efdca590ffde236a830dc7,Perła Export,piwo,lager,5.6,jasne,Browary Lubelskie S.A.,Polska,Lublin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+368,62efdf9617533e9165c49a87,Argus Premium Lager,piwo,lager,5.0,jasne,Lidl Sp. z o.o. ,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+369,62efe50390ffde236a830dc8,Łomża Jasne Pełne,piwo,lager,6.0,jasne,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+370,62efe70a90ffde236a830dc9,Guinness Draught,piwo,stout,4.2,ciemne,CEDC,Irlandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+371,62efef4717533e9165c49a88,Żywiec Jasne Lekkie,piwo,lager,4.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+372,62f011eb19bf63dfdd05b3a8,Wrężel Big Game SIX,piwo,ipa,12.2,karmelowy,Browar Wrężel,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+373,62f01bab19bf63dfdd05b3a9,Budweiser Budvar Original,piwo,světlý ležák,5.0,złoty,Budějovický Budvar,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+374,62f02a3bc441d90c00ba9131,Bud,piwo,lager,5.0,złoty,Anheuser-Busch InBev,Ukraina,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+375,62f11435ee06498c9518519f,Žatecký Černý ,piwo,lekkie ,3.8,ciemne,Carlsberg Polska Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+376,62f3a5645c646d85d82c88c2,Budweiser Budvar Dark,piwo,lager,4.7,ciemny,Budějovický Budvar,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+377,62f3a56e5c646d85d82c88c3,Staropramen ,piwo,lager,5.0,złoty,Barlan Beverages Group Sp. z o.o.,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+378,62f3b22bdc8547fa1a1eedfe,Krombacher Weizen,piwo,pszeniczne bawarskie,5.3,złoty, Krombacher Brauerei,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+379,62f3b472dc8547fa1a1eedff,Becks,piwo,jasne,5.0,słomkowy,United Distribution Holding Sp. z o.o. SKA,Niemcy ,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+380,62f4065cd079a6eda7ddf043, Zlatý Bažant,piwo,pilsner,4.6,złoty,Martin Sp z o.o.,Slowacja ,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+381,62f409f46153a74163403488,Paulaner Weissbier ,piwo,weissbier,5.5,złoty,Paulaner Brewery,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+382,62f40df06153a74163403489,Miller Genuine Draft,piwo,lager,4.7,złoty,Kompania Piwowarska S.A.,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+383,62f4107cd079a6eda7ddf044,Łomża Miodowe ,piwo,lager,5.7,złoty,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,62f7866f42628e8b6e956ae3,Glen Gate Cream,likier,kremowy,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+385,62f7890542628e8b6e956ae4,Bali Advocaat,likier,jajeczny,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+386,62f78b6c42628e8b6e956ae5,Gate Magic Strawberry,likier,truskawkowy,15.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+387,62f78c2542628e8b6e956ae6,Gate Magic Peach,likier,brzoskwiniowy,15.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+388,62f78de042628e8b6e956ae7,Diletto Limoncello,likier,cytrynowy,21.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+389,62f7b1b0a340944c970a0cb7,Bali Caipirinha,likier,Caipirinha,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+390,62f7b2d4a340944c970a0cb8,Bali Chocolate,likier,czekoladowy,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+391,62f7b39ea04e74688d701fb6,Bali Coconut,likier,kokosowy,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+392,62f7b50da340944c970a0cb9,Diletto Amaretto,likier,amaretto,21.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+393,62f7b74aa04e74688d701fb7,Goldwasser piłka,likier,GOLDWASSER,38.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+394,62f7b957a04e74688d701fb8,Budafok Chocolate,likier,czekoladowy,28.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+395,62f7ba40a04e74688d701fb9,Polish Cherry Staropolskie,likier,wiśniowy,35.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+396,62f7bb21a340944c970a0cba,Bali Cafe Latte Macchiato,likier,kawowy,16.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+397,62f7bbfea340944c970a0cbb,Devil's Blood,likier,wiśniowy,33.3,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+398,62f7bcc9a04e74688d701fba,Ambrozja Miodowa,likier,miodowy,40.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+399,62f7becba04e74688d701fbb,Chantal Cherry,likier,wiśniowy,28.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+400,62f7c017a04e74688d701fbc,Custer Cream Liqueur,likier,śmietankowy,17.0,,Bartex Bartol,Holandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+401,62f7c15fa340944c970a0cbc,Diletto Cafe,likier,kawowy,21.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+402,62f7c297a04e74688d701fbd,Diletto Sambuca,likier,ziołowy,21.0,,Bartex Bartol,Polska,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+403,62f7f53dc48b41f538750d14,Sadowski Cydr,cydr,musujący,4.5,,Bartex Bartol,Polska,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+404,62f7f5f6ba832e0db9cafee5,Sadowski Perry,cydr,musujący,4.5,,Bartex Bartol,Polska,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+405,62f7f68ac48b41f538750d15,Sadowski Tropic,cydr,musujący,4.5,,Bartex Bartol,Polska,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+406,62f7f7f6c48b41f538750d16,Gate Cosmopolitan Ice Drink,drink,cosmopolitan,4.4,czerwony,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+407,62f7f8bdc48b41f538750d17,Gate Margherita Ice Drink,drink,margherita,4.4,biały,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+408,62f7f953c48b41f538750d18,Gate Kamikaze Ice Drink,drink,kamikaze,4.4,niebieski,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+409,62f7fa30ba832e0db9cafee7,Gate Miss in Dubai Ice Drink,drink,gruszkowy,4.4,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+410,62f7fab2ba832e0db9cafee8,Gate Gin and Tonic Ice Drink,drink,gin,4.4,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+411,62f7fb61ba832e0db9cafee9,Gate Mojito Ice Drink,drink,mojito,4.4,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+412,62f7fd0aba832e0db9cafeea,Vodka.PL Finest Premium,wódka,czysta,40.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+413,62f7fe0bc48b41f538750d1a,Vodka.PL Premium Gold Quality,wódka,czysta,40.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+414,62f7fe8cc48b41f538750d1b,VODKA.PL Pear,wódka,smakowa,40.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+415,62f7ff3cc48b41f538750d1c,Vodka.pl Green Apple,wódka,smakowa,40.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+416,62f7ffc4c48b41f538750d1d,TUR Vodka Lemon,wódka,smakowa,35.0,,Bartex Bartol,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+417,62f81be0eefbeabcae51113f,Bojan Kiwi,piwo,lager,4.2,złoty,Browar Bojanowo,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+418,62f81e39eefbeabcae511140,Argus El Bravos,piwo,jasne,6.0,słomkowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+419,62f823f984a2958a59ebfcf0,Grolsch Premium Pilsner Beer,piwo,holenderskie piwo ,5.0,słomkowy,Kompania Piwowarska S.A.,Holandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+420,62fa9edb2eb13eb1b8afd64c,Żywiec Białe,piwo,witbier,4.9,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+421,62faa09e2d44f7f385d6e8fd,Złoty Denar Jasny,piwo,pale lager,4.0,słomkowy,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+422,62faa1c72d44f7f385d6e8fe,"Żywiec białe 0,0",piwo,non-alcoholic witbier,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+423,62faa2e12d44f7f385d6e8ff,"Żywiec IPA 0,0",piwo,non-alcoholic session IPA,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+424,62faa3df2eb13eb1b8afd64d,Żywiec IPA,piwo,session IPA,5.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+425,62faa54b2d44f7f385d6e900,Żywiec APA,piwo,american pale ale,5.4,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+426,63025508c346dfe5cb641be9,Żywiec Porter,piwo,porter,9.5,ciemne,Grupa Żywiec S.A.,Polska,Cieszyn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+427,63025648d3d0001103e7dcfa,Leżajsk Pełne,piwo,pale lager,5.5,jasne,Grupa Żywiec S.A.,Polska,Podkarpacie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+428,63025a80d3d0001103e7dcfb,Specjal Jasny Pełny,piwo,pale lager,5.8,złocisty,Grupa Żywiec S.A.,Polska,Elbląg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+429,63025da4d3d0001103e7dcfc,"Warka Radler 3,5 Granat z Pomarańczą",piwo,radler,3.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+430,63025e5ed3d0001103e7dcfd,"Warka Radler 3,5 Malina z Cytrusami",piwo,radler,3.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+431,63025f99d3d0001103e7dcfe,"Warka Radler 3,5 Cytryna",piwo,radler,3.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+432,630260d6d3d0001103e7dcff,Warka Jasne Pełne,piwo,pale lager,5.2,jasne,Grupa Żywiec S.A.,Polska,Warka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+433,63026a542c8204566bc5bfd6,Królewskie,piwo,pale lager,5.6,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+434,630270dc2c8204566bc5bfd7,Brackie Pils,piwo,bohemian pilsner,5.2,jasne,Grupa Żywiec S.A.,Polska,Żywiec,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+435,630275ed03edd62c61da3845,Żywiec Jasny Lekki Oranż,piwo,lager,4.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+436,630277182c8204566bc5bfd8,Żywiec Jasny Lekki Limonż,piwo,lager,4.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+437,63027a6b03edd62c61da3846,Żywiec Jasny Lekki Grejpfruż,piwo,lager,4.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+438,63027b9403edd62c61da3847,"Żywiec Jasny Lekki Limonż 0,0",piwo,non-alcoholic lager,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+439,630280b503edd62c61da3848,Złoty Denar Mocny,piwo,strong lager,6.1,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+440,630286922c8204566bc5bfda,Desperados,piwo,specialty beer,6.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+441,630288f803edd62c61da3849,Desperados Mojito,piwo,specialty beer,6.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+442,63028d9503edd62c61da384b,Desperados Red,piwo,specialty beer,6.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+443,63028e7203edd62c61da384c,Desperados Whisky Sour,piwo,specialty beer,7.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+444,63028ef12c8204566bc5bfdb,Desperados Exotic Rum,piwo,specialty beer,4.5,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+445,63028f7d2c8204566bc5bfdc,Desperados Tropical Twist 0.0,piwo,specialty beer,0.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+446,6302934803edd62c61da384d,Argus Mocne,piwo,strong lager,7.2,jasne,Lidl sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+447,630294f603edd62c61da384e,Grodziskie White IPA,piwo,smoked white IPA,6.0,jasne,Browar w Grodzisku Wielkopolskim sp. z o.o. sp. k.,Polska,Grodzisk,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+448,630a589d4e6b39a63af1fefe,Czernihowskie Lager ,piwo,lager,4.8,słomkowy,,Ukraina,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+449,630cdd010e2cfcb89c444262,Łomża Pils,piwo,german pilsner,6.0,słomkowy,Van Pur SA.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+450,630ce7fdda40a673f34ac1d3,"Łomża 0,0",piwo,non-alcoholic lager,0.0,słomkowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+451,630ce97ed2485e398438cc2f,Łomża Radler Cytryna ,piwo,radler,2.0,żółty,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+452,630cf3d1d2485e398438cc30,Łomża wyborowe,piwo,premium lager,6.0,słomkowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+453,630cf5bada40a673f34ac1d4,Łomża Mocne,piwo,lager,7.0,słomkowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+454,630cf9b7da40a673f34ac1d5,Cortes Extra,piwo,pale lager,4.5,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+455,630d14899b0fa74888cb9eb8,Cortes Tequila,piwo,specialty beer,6.0,słomkowy,browar Van Pur,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+456,630d1a833e7eecc2a113ab43,Namysłów Kuflowe Mocne,piwo,strong lager,7.2,słomkowy,Browar Namysłów,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+457,630d1e0a9b0fa74888cb9eb9,Brok Premium Lager,piwo,lager,5.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+458,630e64312fc2b8a1a5a2d6d5,Brok Sambor,piwo,lager,6.0,złoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+459,630faf68f66a3c75cefe0c90,Braniewo Jasne Pełne,piwo,lager,5.8,bursztynowy,Browar Namysłów,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+460,630fb4d8934671f6e9f427b6,Karpackie Pils,piwo,lager,4.0,złoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+461,630fb64a934671f6e9f427b7,Karpackie Mocne,piwo,lager,7.0,ciemny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+462,630fbda3f66a3c75cefe0c91,Karpackie Super Mocne 9,piwo,lager,9.0,rubinowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+463,630fc0a7f66a3c75cefe0c92,Halne Pełne,piwo,lager,6.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+464,630fc21f934671f6e9f427b8,Halne Mocne,piwo,lager,7.0,złoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+465,630fc26c934671f6e9f427b9,Śląskie Mocne,piwo,lager,7.0,ciemny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+466,630fc4bff66a3c75cefe0c93,Halne Mega Mocne,piwo,lager,10.0,bursztynowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+467,630fc626934671f6e9f427ba,"Edelmeister Pilsener 4,5",piwo,pilsener,4.5,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+468,63111e1a5c69e5bc30e13d72,"Edelmeister 0,0",piwo,lager ,0.0,złoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+469,631120f85c69e5bc30e13d73,"Edelmeister 8,8",piwo,lager,8.8,bursztynowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+470,6311223c2b81b9c2912bfe76,Edelmeister Schwarzbier,piwo,lager,4.2,ciemny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+471,631123d82b81b9c2912bfe77,Edelmeister Weizenbier,piwo,weissbier,5.7,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+472,631126072b81b9c2912bfe78,Edelmeister Radler Lemon,piwo,radler,2.0,jasny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+473,6318cce3c702798f8682375d,Desperados Lime,piwo,specialty beer,3.0,jasne,Grupa Żywiec S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+474,631903e3bc4e42416ed2c572,"Edelmeister Radler Grapefruit 2,5",piwo,lager,2.5,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+475,631905ced4f7a94854f2c654,Edelmeister Radler Elderflower Lemon Mint 0.0,piwo,radler,0.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+476,631906d2bc4e42416ed2c573,Edelmeister Radler Blueberry 0.0,piwo,radler,0.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+477,63190919bc4e42416ed2c574,Van Pur Premium 5.0,piwo,lager,5.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+478,631ba5dbfab0c6fba4f0255c,Van Pur 10,piwo,lager,10.0,bursztynowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+479,631ba772000c24db49dd5b51,Jasne że Pełne,piwo,lager,5.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+480,631ba871fab0c6fba4f0255d,Karpackie Premium,piwo,lager,5.0,złoty,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+481,631baa40000c24db49dd5b52,Cortes 0.0 Ananas,piwo,radler,0.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+482,631bab92000c24db49dd5b53,Cortes Arbuz Melon,piwo,radler,0.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+483,631baca5fab0c6fba4f0255e,Cortes 0.0 Kiwi Liczi,piwo,radler,0.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+484,631bb13c000c24db49dd5b54,Cortes Muscat,piwo,specialty beer,4.5,jasny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+485,631bb23c000c24db49dd5b55,Cortes Rosado,piwo,specialty beer,4.5,różowy,Van Pur SA.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+486,631bb377fab0c6fba4f0255f,Łomża radler 0.0 Arbuz z Truskawką ,piwo,radler,0.0,malinowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+487,631bb4d4fab0c6fba4f02560,Łomża Białe Pszeniczne,piwo,pszeniczne,5.0,słomkowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+488,631bb698000c24db49dd5b56,Łomża Radler 0.0 Grapefruit,piwo,radler,0.0,różowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+489,631bba61000c24db49dd5b57,Łomża Radler 0.0 Jabłko - Wiśnia,piwo,radler,0.0,jasny,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+490,631bbb54000c24db49dd5b58,Łomża Niefiltrowane Naturalnie Mętne,piwo,lager,5.7,słomkowy,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+491,631cc9bdd0de67be6fb5350a,Fortuna Czarne Bezalkoholowe,piwo,lager,0.5,karmelowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+492,631ccb2c7d200d39dc9b6106,Fortuna Kwaśna Pigwa,piwo,fruit beer,5.6,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+493,631cccbad0de67be6fb5350b,Fortuna Śliwkowa,piwo,fruit beer,5.3,ciemny,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+494,631e3b68c1ad86633ff2d907,"Łomża Radler 0,0 Mango",piwo,non-alcoholic radler,0.0,jasne,Browary Regionalne Łomża Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+495,631e3c4fc1ad86633ff2d908,Brok Martin,piwo,german pilsner,7.0,bursztynowy,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+496,631e3d95055abbcfd99dbbe7,Van Pur Non Alcoholic,piwo,low-alcoholic lager,0.5,jasne,Van Pur S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+497,631e4127055abbcfd99dbbe8,Asia Trip ONE,piwo,asian fruit rice IPA,6.1,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+498,631e422a055abbcfd99dbbe9,Asia Trip Two,piwo,sorachi rice double IPA,8.2,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+499,6322409d86d1ba39137c5ccc,Fortuna Miodowe Ciemne,piwo,specialty beer,5.6,karmelowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+500,632241f586d1ba39137c5ccd,Fortuna Mirabelka,piwo,fruit beer,5.1,bursztynowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+501,6322430786d1ba39137c5cce,Fortuna Mirabelka Bezalkoholowe,piwo,non-alcoholic fruit beer,0.0,bursztynowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+502,6326327ff7f046f94acb8463,Komes Porter Bałtycki Płatki Dębowe,piwo,baltic porter,9.0,czarny,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+503,632641e31b4669bb9b1cdeff,Komes Imperial IPA,piwo,imperial IPA,7.0,bursztynowe,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+504,632643221b4669bb9b1cdf00,Miłosław Bezalkoholowe IPA,piwo,non-alcoholic IPA,0.5,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+505,632644721b4669bb9b1cdf01,Miłosław Bezalkoholowy Witbier,piwo,non-alcoholic witbier,0.5,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+506,6326451f252267784d73cd74,Miłosław Blonde Ale,piwo,belgian blond ale,6.0,złoty,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+507,63264663252267784d73cd75,Miłosław Chmielowy Lager,piwo,hoppy lager,4.5,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+508,632647aa252267784d73cd76,Miłosław Koźlak,piwo,traditional bock,7.5,brunatny,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+509,6326499a252267784d73cd77,Miłosław Marcowe,piwo,lager,6.0,bursztynowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+510,63264def1b4669bb9b1cdf02,Miłosław Niefiltrowane,piwo,premium lager,5.5,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+511,63264ea21b4669bb9b1cdf03,Miłosław Pilzner,piwo,bohemian pilsener,5.4,słomkowy,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+512,63264f571b4669bb9b1cdf04,Miłosław Sosnowe APA,piwo,american pale ale,4.8,złoty,Browar FORTUNA Sp. z o.o.,Polska,,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+513,6328dc8af840cb9bd8185144,Lubelskie Mocne,piwo,strong lager,7.6,słomkowy,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+514,6328dd59f840cb9bd8185145,Perła Bezalkoholowa,piwo,non-alcoholic lager,0.3,złoty,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+515,6328de12f840cb9bd8185146,Perła Koźlak,piwo,traditional bock,7.0,ciemny,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+516,6328df56f840cb9bd8185147,Perła Miodowa,piwo,specialty beer,5.4,bursztynowy,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+517,6328e047f840cb9bd8185148,Perła Porter Bałtycki,piwo,baltic porter,9.2,ciemny,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+518,6328e13cf840cb9bd8185149,Trybunalskie Miodowe,piwo,specialty beer,6.0,złoty,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+519,6328e21df840cb9bd818514a,Zwierzyniec Pils,piwo,german pilsner,6.0,bursztynowy,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+520,6328e311f840cb9bd818514b,Zwierzynieckie,piwo,kölsch,5.0,złoty,Perła - Browary Lubelskie S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+521,6341cfaef490c34e796a3c33,A KU KU,piwo,Miodowe,5.0,Jasne,Browar Błonie,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+522,6341d466f490c34e796a3c34,Zissou APA,piwo,apa,5.0,jasny,Inne Beczki,Polska,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+523,6341ddee5594f5b0694aaeff,AleBrowar Hula Hop,piwo,White IPA,5.2,złocisty,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+524,6341e48e5594f5b0694aaf00,AleBrowar What a Shot,piwo,West Coast IPA,5.0,bursztynowy,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+525,6341e5e9f490c34e796a3c39,AleBrowar Imperial Smoky Joe,piwo,Imperial Whisky Stout,9.8,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+526,6341e740f490c34e796a3c3a,AleBrowar Lady Blanche,piwo,Witbier,4.7,biały,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+527,6341e86f5594f5b0694aaf03,AleBrowar Sweet Cow,piwo,Milk Stout,5.0,czarna kawa,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+528,6341e99cf490c34e796a3c3b,AleBrowar King of Hop,piwo,American Pale Ale,5.0,ciemno brązowy,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+529,6341ec675594f5b0694aaf04,AleBrowar Black Hope,piwo,Black IPA,6.2,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+530,6341ed83f490c34e796a3c3c,AleBrowar Rowing Jack,piwo,India Pale Ale,6.2,jasne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+531,6341ee625594f5b0694aaf05,AleBrowar Crazy Mike,piwo,Double IPA,9.0,złociste,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+532,6342e4b25e6f3230ae3a51a8,Joe Hop's Whisky Stout,piwo,Stout,5.2,ciemny,Kultowy Browar Staropolski ,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+533,6342f129c8c9489f7c68582c,Double Fruited Gose,piwo,Gose,3.6,jasne,Browar Funky Fluid,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+534,6342f6d05e6f3230ae3a51a9,Dziki Wschód Redneck's Revenge ,piwo,IPA,6.2,Jasne,Kamron Group,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+535,6342fb645e6f3230ae3a51aa,Raduga Citrus Citrus,piwo,DDH IPA,6.3,jasne,Browar Raduga,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+536,634326bc9fc13a68189c13c7,AleBrowar & Poppels Son of the Son Vol.2,piwo,New England IPA,5.7,jasne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+537,6343281c8125caed732044ba,AleBrowar World of IPA Sour IPA,piwo,Sour IPA,5.6,jasne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+538,63432a629fc13a68189c13c8,AleBrowar World of IPA Oat White IPA,piwo,White IPA,6.8,jasnozłoty,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+539,63432b918125caed732044bc,AleBrowar World of IPA Black IPA,piwo,Black IPA,6.8,ciemnobrązowe,ALeBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+540,6345988f77c77ba46c1f7a02,Oya Sauvignon Blanc,wino,wytrawne,12.0,białe,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+541,63459a05ad8a8d9c22a36ef1,Oya Chardonnay,wino,wytrawne,12.0,białe,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+542,63459af577c77ba46c1f7a05,Oya Cabernet Sauvignon,wino,wytrawne,13.0,czerwone,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+543,63459c6477c77ba46c1f7a06,Vionelli Pinot Grigio,wino,wytrawne,11.5,białe,Bartex Bartol,Włochy,Emilia-Romania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+544,63459d7cad8a8d9c22a36ef2,Barwick Estates Sauvignon Blanc Semillon,wino,wytrawne,12.5,białe,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+545,63459e5ead8a8d9c22a36ef3,Barwick Estates Shiraz,wino,wytrawne,13.49,czerwone,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+546,63459f5a77c77ba46c1f7a07,Bear Crossing Cabernet Merlot,wino,wytrawne,13.5,czerwone,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+547,6345a04f77c77ba46c1f7a08,Bear Crossing Chardonnay,wino,wytrawne,13.5,białe,Bartex Bartol,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+548,6345a1d977c77ba46c1f7a09,Bumerang Cabernet Sauvignon Merlot,wino,wytrawne,13.0,czerwone,Bumerang Cabernet Sauvignon Merlot,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+549,6345a317ad8a8d9c22a36ef4,Canti Premium Merlot IGT Terre Siciliane,wino,wytrawne,13.0,czerwone,Canti,Włochy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+550,6345a4e3ad8a8d9c22a36ef5,Butterfly Ridge Shiraz Cabernet,wino,wytrawne,13.5,czerwone,Angove,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+551,6345a66877c77ba46c1f7a0a,Les Peyrautins Cabernet Syrah,wino,wytrawne,13.0,czerwone,Les Peyrautins,Francja,Languedoc-Roussillor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+552,6345a73777c77ba46c1f7a0b,Les Peyrautins Malbec,wino,wytrawne,13.0,czerwone,Les Peyrautins,Francja,Languedoc-Roussillon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+553,6345a90477c77ba46c1f7a0c,Big Red Beast,wino,wytrawne,12.5,czerwone,Big Beast,Francja,Langwedocjia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+554,6345b22444e3d00b138cdae2,Black Boss,piwo,baltic porter,8.5,czarny rubin,Browar Witnica,Polska,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+555,6345bf014c747cb9f2fecab6,Lubuski Celtyk,piwo,munich dunkel,4.9,ciemne,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+556,634700e1b3328310fb34d4e3,Sady Just Space,piwo,Freshpresso Ale,5.9,jasny,Sady,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+557,634bccacd64e597caf8e395c,Hopito Warrior IPA,piwo,Imperial West Cost IPA,7.2,jasny bursztynowy,Browar Hopito,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+558,634be860d64e597caf8e395d,Lubuskie i Tequila,piwo,specialty beer,4.9,jasne,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+559,634beb01d53de905ed39639a,Lubuski Chmiel,piwo,premium lager,5.0,jasne,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+560,634bec19d53de905ed39639b,Lubuskie Czekoladowe,piwo,specialty beer,4.2,brązowe,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+561,634bed37d64e597caf8e395e,Lubuskie Imbirowe Miodowo-Malinowe,piwo,specialty beer,4.2,bursztynowe,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+562,634bee1dd64e597caf8e395f,Lubuskie Jagodowe,piwo,fruit beer,4.2,jasne,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+563,634bf5b8d53de905ed39639c,Joe Hops Coffee Stout,piwo,Irish stout,5.9,ciemne,Irish stout,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+564,634bf738d64e597caf8e3960,Lubuskie Jasne,piwo,pale lager,6.1,złocisty,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+565,634bf857d53de905ed39639d,Lubuskie Malinowe,piwo,fruit beer,4.2,czerwony,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+566,634bfbbbd53de905ed39639e,Astra Urtyp,piwo,Pils,4.9,jasny,Dystrybucja lokalna,Niemcy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+567,634bfcf1d53de905ed39639f,Lubuskie Miodowe Jasne,piwo,specialty beer,4.2,jasnobursztynowy,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+568,634bfdb1d53de905ed3963a0,Lubuskie Truskawkowe,piwo,fruit beer,4.2,ciemnoróżowy,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+569,634bfe5dd53de905ed3963a1,Lubuskie Wiśniowe,piwo,fruit beer,4.2,czerwony,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+570,634bff83d53de905ed3963a2,AleBrowar Amber Boy,piwo,Amber Ale,5.0,jasne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+571,634c00d9d53de905ed3963a5,Nowy Browar Szczecin,piwo,koźlak,6.4,jasny,Nowy Browar Szczecin,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+572,634c00ffd64e597caf8e3962,AleBrowar Naked Mummy,piwo,Pumpkin Ale,6.2,lekko pomarańczowy,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+573,634c02acd53de905ed3963a7,AleBrowar Ortodox Stout,piwo,Stout,5.6,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+574,634c0333d64e597caf8e3964,AleBrowar Golden Monk,piwo,Saison IPA,7.2,złoty,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+575,634c0452d64e597caf8e3965,AleBrowar Hard Bride,piwo,American Barleywine,9.8,lekko czerwone,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+576,634c04b6d53de905ed3963a8,Poz-naj,piwo,Apa,5.0,jasne,Poznańskie Browary Rzemieśnicze,Polska,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+577,634c04d1d64e597caf8e3966,AleBrowar Salty Barbara,piwo,Gose with Rhubarb,4.7,ciemno słomkowy,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+578,634c0570d64e597caf8e3967,AleBrowar Ortodox Pale Ale,piwo,English Pale Ale,4.2,złoty,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+579,634c0600d53de905ed3963a9,AleBrowar Not So Scary,piwo,New England IPA,5.2,ciemnożółte,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+580,634c068cd53de905ed3963aa,AleBrowar El Fruto,piwo,Hazy Juicy Double IPA,8.0,pomarańczowy,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+581,634c0723d53de905ed3963ab,AleBrowar Pear Time,piwo,Pear Pale Ale,5.0,jasnomleczny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+582,634c07c5d53de905ed3963ac,AleBrowar Tengu Time,piwo,APA with Lemon and Lemongrass,4.0,złoty,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+583,634c08bad53de905ed3963ad,Poz-naj Pils,piwo,Pils,5.0,jasny,Poznańskie Browary Rzemieśnicze,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+584,634c092fd53de905ed3963ae,Lubuskie Zielone,piwo,specialty beer,4.2,zielony,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+585,634c0a2ad64e597caf8e3969,Lubusz,piwo,pale lager,4.2,słomkowy,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+586,634c0b25d64e597caf8e396a,Proper extra special bitter,piwo,strong bitter,4.5,jasny,Zakapslowani,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+587,634c0d44d64e597caf8e396b,Leżaczek ukojenia,piwo,Apa,4.8,jasny,browar sady,Polska,,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+588,634c0d51d53de905ed3963af,Lubuskie IPA,piwo,IPA,5.6,bursztynowa,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+589,634c0fccd53de905ed3963b0,Kruki Barbarossy,piwo,IPA,4.9,jasny,Poznańskie Browary Rzemieśnicze,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+590,634c117cd64e597caf8e396c,Czarna amba,piwo,IPA,8.1,ciemny,Browar psotnik,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+591,634c1251d64e597caf8e396d,Podpiwek Lubuski,piwo,podpiwek,0.0,ciemnobrązowy,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+592,634c132fd53de905ed3963b1,Gzub AIPA,piwo,Aipa,6.8,jasny,Browar Gzub,Polska,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+593,634c134dd53de905ed3963b2,Pszeniczne Jasne,piwo,weissbier,5.0,złocisty,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+594,634c142ad64e597caf8e396e,Witnicki Porter,piwo,baltic porter,8.5,czarny rubin,Browar Witnica,Polska,Lubuskie,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+595,634efb3453b064c028b39076,Gzub Zmrok,piwo,Stout,14.5,ciemny,Browar Gzub,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+596,634efc97e0aa093cd7a32637,Gzub Pils,piwo,Pils,5.1,jasne,Browar Gzub,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+597,634efe35e0aa093cd7a32638,Gzub Pszeniczne,piwo,Weizen,5.1,jasne,Browar Gzub,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+598,634f007ce0aa093cd7a32639,Gzub Grapefruit,piwo,Ale,2.7,ciemny,Browar Gzub,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+599,634f022253b064c028b39077,Gzub Hycka,piwo,Sour,3.6,jasny,Browar Gzub,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+600,634f038fe0aa093cd7a3263a,Kingpin Mandarin,piwo,Ipa,7.3,jasny,Browar Kingpin,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+601,634f04fce0aa093cd7a3263b,Kingpin Rocknrolla,piwo,Pale Ale,5.3,Bursztynowy,Kingpin Browar,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+602,635305991e38252337505fe2,AleBrowar & Nocny Kochanek Amarenowe,piwo,Fruit gose,4.6,ciemne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+603,6353061d1e38252337505fe3,AleBrowar New Wave Gose Jagoda,piwo,Gose,4.7,blada czerwień,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+604,635306f21e38252337505fe4,AleBrowar New England DDH DIPA Centennial + Amarillo,piwo,New England Double IPA,7.0,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+605,635307a31e38252337505fe6,AleBrowar RIS In Peace 2018,piwo,Russian Imperial Stout,6.6,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+606,6353082adbdcc7392d6f1d3b,AleBrowar New Wave Gose Morela,piwo,Gose,5.0,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+607,63530896dbdcc7392d6f1d3c,AleBrowar Single Hop IPA Centennial,piwo,American IPA,6.2,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+608,635309231e38252337505fe7,AleBrowar Single Hop IPA Amarillo,piwo,American IPA,6.0,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+609,6353098edbdcc7392d6f1d3d,Miłosław / AleBrowar Śmiała Kooperacja American Witbier z Kwiatem Jaśminu,piwo,American Witbier,5.6,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+610,63530a231e38252337505fe8,AleBrowar Single Hop IPA Chinook,piwo,American IPA,6.2,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+611,63530b241e38252337505fe9,AleBrowar Single Hop IPA Mosaic BBC,piwo,American IPA,6.2,jasny,AleBrowar,Polska,Wrocław,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+612,63530bc3dbdcc7392d6f1d3e,AleBrowar Freak Out,piwo,New England IPA,5.2,żółta,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+613,63530c56dbdcc7392d6f1d3f,AleBrowar Single Hop IPA Cashmere,piwo,India Pale Ale,6.2,jasne,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+614,63530ce11e38252337505fea,AleBrowar RIS in Peace Autumn 2017,piwo,Smoked Imperial Stout,9.8,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+615,63530d5edbdcc7392d6f1d40,AleBrowar RIS in Peace Summer 2017,piwo,Russian Imperial Stout,9.8,czarny,AleBrowar,Polska,Wrocław,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+616,6354235793c134a93215d544,Kingpin Lunatic,piwo,Pale Ale,5.2,jasny,Kingpin Browar,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+617,6354fa9d77fbeb9fa2227e18,Chablis,wino,wytrawne,12.0,białe,Bovier & Fils,Francja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+618,6354fcc29ecf7680a9070f00,Canti Estate Barbera D Asti,wino,wytrawne,13.5,czerwone,Canti,Włochy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+619,6354fd949ecf7680a9070f01,Canti Estate Gavi,wino,wytrawne,12.5,białe,Canti,Włochy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+620,6354ff2e9ecf7680a9070f02,Margaret River Sauvignon Blanc,wino,wytrawne,12.5,białe,Marget River,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+621,6355001e77fbeb9fa2227e19,Margaret River Cabernet Sauvignon,wino,wytrawne,13.5,czerwone,Margaret River,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+622,635500c79ecf7680a9070f03,Cape Vale Cabernet Shiraz Merlot,wino,wytrawne,14.0,czerwone,Capel Vale,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+623,635501af9ecf7680a9070f04,Ceuso,wino,wytrawne,14.0,czerwone,Azienda Agricola Ceuso,Włochy,Sycylia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+624,635502f377fbeb9fa2227e1a,Sol De Chile Premium Cabernet Sauvignon,wino,wytrawne,13.5,czerwone,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+625,635504699ecf7680a9070f05,Chateau Bordeaux Haut Litays,wino,wytrawne,12.0,czerwone,Chateau Bordeaux,Francja,Bordeaux,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+626,635505539ecf7680a9070f06,Chateau Ministre,wino,wytrawne,12.5,czerwone,Domaine Tissot,Francja,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+627,6355063477fbeb9fa2227e1b,Chianti Nobili,wino,wytrawne,12.0,czerwone,Nobili del Borgo,Włochy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+628,635506f59ecf7680a9070f07,Concannon Cabernet Sauvignon,wino,wytrawne,13.5,czerwone,Concannon,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+629,6355099277fbeb9fa2227e1c,Concannon Petite Sirah,wino,wytrawne,13.5,czerwone,Concannon,USA,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+630,63550aa59ecf7680a9070f08,Angoves Coonawarra Cabernet Sauvignon,wino,wytrawne,13.0,czerwone,Angoves,Australia,Coonawarra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+631,63550ba077fbeb9fa2227e1d,Don Simon Blanco,wino,wytrawne,11.0,białe,Don Simon,Hiszpania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+632,63550c2b9ecf7680a9070f09,Don Simon Tinto,wino,wytrawne,12.0,czerwone,Don Simon,Hiszpania,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+633,63550d4c77fbeb9fa2227e1e,Durius Concordia Tempranillo,wino,wytrawne,14.0,czerwone,Marques de la Concordia,Hiszpania,Rioja,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+634,63550f9177fbeb9fa2227e1f,Element Cabernet Sauvignon,wino,wytrawne,14.5,czerwone,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+635,6355104477fbeb9fa2227e20,Element Chardonnay,wino,wytrawne,13.2,białe,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+636,635510f677fbeb9fa2227e21,Element Classic White,wino,wytrawne,12.48,białe,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+637,6355125977fbeb9fa2227e22,Element Merlot,wino,wytrawne,14.0,czerwone,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+638,635513139ecf7680a9070f0a,Element Shiraz Cabernet,wino,wytrawne,13.0,czerwone,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+639,635513fc77fbeb9fa2227e23,Element Late Harvest,wino,półsłodkie,10.5,białe,Sandalford,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+640,63556122a7d08878118b89a5,Emu Cabernet Sauvignon,wino,wytrawne,13.5,czerwone,Emu Quality Fine Red Wine,Australia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+641,6355622442fb2533581f71cd,Western Creek Cabernet Sauvignon Reserve,wino,wytrawne,13.5,czerwone,Western Creek,Australia,Margaret River,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+642,6355636aa7d08878118b89a6,Emu Shiraz,wino,wytrawne,13.0,czerwone,Emu Quality Fine Red Wine,Australia,Riverland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+643,63556427a7d08878118b89a7,Sol De Chile Varietal Carmenere,wino,wytrawne,13.5,czerwone,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+644,6355655ba7d08878118b89a8,Sol De Chile Varietal Sauvignon Blanc,wino,wytrawne,13.0,białe,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+645,6355ac7e95014d6f73a023ee,Berri,piwo,sour ale,5.1,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+646,6355af8a19455b2d7cb66637,Big Game Four,piwo,braggot,13.7,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+647,6355b15695014d6f73a023ef,Big Game One,piwo,tropical triple IPA,11.5,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+648,6355b28495014d6f73a023f0,Big Game Seven,piwo,triple sabro oat IPA,12.2,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+649,6355b56095014d6f73a023f2,Big Game Three,piwo,peated ris-lapsang,10.8,ciemne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+650,6355b86d19455b2d7cb6663a,Big Game Two,piwo,triple hazy IPA,10.6,jasne,Browar Wrężel S.A.,Polska,test,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+651,6355ba8919455b2d7cb6663b,Bock'n'roll,piwo,koźlak tradycyjny,7.5,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+652,6355bd3519455b2d7cb6663c,Bumblebee,piwo,pszeniczne,4.1,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+653,6355be5c19455b2d7cb6663d,Butterfly,piwo,double dry hopped apa,5.3,jasne,Browar Wrężel S.A.,Polska,test,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+654,6355bf8a19455b2d7cb6663e,Calamipa,piwo,calamansi milkshake IPA,5.5,jasne,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+655,6357053fd9ec582dcbcfb5a7,Wrężel Cardinal,piwo,New England IPA,5.8,słomkowy,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+656,635707a4d9ec582dcbcfb5a8,Wrężel CELiPAL,piwo,OATMEAL DDH IPA,6.6,złoty,Browar Wrężel S.A.,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+657,63590a1b4596ebb6b32018ae,Sol De Chile Varietal Rose Syrah,wino,półsłodkie,13.48,różowe,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+658,63590d504596ebb6b32018af,Sol De Chile Blend Cabernet Sauvignon - Merlot (półsłodkie),wino,półsłodkie,12.5,czerwone,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+659,63590f2fe303af678b71fd7e,Sol De Chile Blend Sauvignon Blanc - Chardonnay (półsłodkie),wino,półsłodkie,13.0,białe,odegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+660,63591043e303af678b71fd7f,Sol De Chile Blend Syrah - Cabernet Sauvignon (półsłodkie),wino,półsłodkie,13.0,czerwone,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+661,635913444596ebb6b32018b0,Sol De Chile Blend Cabernet Sauvignon - Merlot,wino,wytrawne,13.43,czerwone,Bodegas y Vinedos De Aguirre S.A.,Chile,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+662,63613418c5b90f381b96fcc6,Flipper,piwo,Double Cream Hazy IPA,8.1,Jasne,Browar Kazimierz,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+663,63613552c5b90f381b96fcc7,La Trappe Trappist Isidor,piwo,Belgian Golden Strong Ale,7.5,Jasne,La Trappe,Holandia,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+664,636136d62f01674f7ad7828c,Jaw Breaker,piwo,Rice Double IPA,8.0,jasne,"Restauracja Regionalna ""Marysia""",Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+665,636137fdc5b90f381b96fcc8,AleBrowar Bałtycki Dziad Pils,piwo,Pils,4.8,jasne,AleBrowar,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+666,63613b05c5b90f381b96fcc9,Golem Gehenna,piwo,Whisky Extra Stout,6.5,ciemne,Szczyrzycki Browar Cystersów Gryf,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+667,63613c81c5b90f381b96fcca,Magic Road Friendly IPA,piwo,IPA,5.5,jasne,GME Restauracje,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+668,63613ecbc5b90f381b96fccb,Jan Olbracht Piernikowy Foch,piwo,Spice,5.6,ciemne,Jan Olbracht Browar Staromiejski,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+669,6361407fc5b90f381b96fccc,Stu Mostów Imperial Pastry Stout Cheesecake,piwo,Imperial Pastry Stout,12.5,ciemne,Browar Stu Mostów,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+670,63614185c5b90f381b96fccd,Napalm In The Morning,piwo,Russian Imperial Stout,11.0,ciemne,Browar Moczybroda,Polska,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+671,6361427b2f01674f7ad7828d,Primator English Pale Ale,piwo,EPA,5.0,bursztyn,Primator,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+672,63614386c5b90f381b96fcce,Primator Single Hop Lager,piwo,Lager,4.8,jasne,Primator,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+673,6361448bc5b90f381b96fccf,Primator IPA,piwo,IPA,6.5,jasno-pomarańczowy,Primator,Czechy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
