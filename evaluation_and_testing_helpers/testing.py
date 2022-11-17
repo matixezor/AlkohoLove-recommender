@@ -50,9 +50,9 @@ def evaluate_train_test_split_explicit(recommender, interactions_df, items_df, s
 
         r_pred.append(recommendations.iloc[0]['score'])
 
-    # Gather real ratings
+    # Gather real review
 
-    r_real = np.array(interactions_df_test['rating'].tolist())
+    r_real = np.array(interactions_df_test['review'].tolist())
 
     # Return evaluation metrics
 
@@ -145,7 +145,8 @@ def evaluate_leave_one_out_explicit(recommender, interactions_df, items_df, max_
             items_df.loc[items_df['item_id'] == interactions_df_test.iloc[0]['item_id']])
 
         r_pred.append(recommendations.iloc[0]['score'])
-        r_real.append(interactions_df_test.iloc[0]['rating'])
+        
+        r_real.append(interactions_df_test.iloc[0]['review'])
 
         if n_eval == max_evals:
             break

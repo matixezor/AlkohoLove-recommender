@@ -1,0 +1,7 @@
+from os import getenv
+
+ALLOWED_ORIGINS = ['*']
+ALLOWED_METHODS = ['*']
+ALLOWED_HEADERS = ['*']
+ALLOW_CREDENTIALS = False
+DATABASE_URL = getenv('DATABASE_URL')
