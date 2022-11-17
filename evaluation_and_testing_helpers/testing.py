@@ -145,6 +145,7 @@ def evaluate_leave_one_out_explicit(recommender, interactions_df, items_df, max_
             items_df.loc[items_df['item_id'] == interactions_df_test.iloc[0]['item_id']])
 
         r_pred.append(recommendations.iloc[0]['score'])
+        
         r_real.append(interactions_df_test.iloc[0]['review'])
 
         if n_eval == max_evals:
