@@ -1,3 +1,4 @@
+from pymongo import DESCENDING
 from pymongo.collection import Collection
 
 
@@ -23,4 +24,15 @@ class LdaSimDatabaseHandler:
                     'sim': {'$gt': 0.2}
                 }
             )
+        )
+
+    @staticmethod
+    def get_similar_alcohols_to(collection: Collection, alcohol_id: str, n: int):
+        return list(
+            collection.find(
+                {
+                    'source': alcohol_id,
+                    'sim': {'$gt': 0.2}
+                }
+            ).sort('sim', DESCENDING).limit(n)
         )
