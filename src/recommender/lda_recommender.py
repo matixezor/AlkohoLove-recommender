@@ -99,6 +99,17 @@ class LDARecommender(BaseRecommender):
         sorted_recommendations = sorted(recommendations.items(), key=lambda x: -float(x[1]['prediction']))[:n]
         return [sorted_recommendation[0] for sorted_recommendation in sorted_recommendations]
 
+    @staticmethod
+    def get_similar_alcohols(alcohol_id: ObjectId, db: Database, n: int) -> list[str]:
+        return [
+            str(alcohol['target']) for alcohol in
+            LdaSimDatabaseHandler.get_similar_alcohols_to(
+                db.lda_sim,
+                str(alcohol_id),
+                n
+            )
+        ]
+
     def save_similarities_to_db(self, db: Database):
         coo = coo_matrix(self.index)
         csr = coo.tocsr()

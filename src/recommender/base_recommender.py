@@ -4,7 +4,7 @@ from pickle import dump, load, HIGHEST_PROTOCOL
 
 class BaseRecommender:
     FILENAME = None
-    
+
     def save(self):
         print(f'[{datetime.now()}]Saving self to file.')
         with open(self.FILENAME, 'wb') as file:
