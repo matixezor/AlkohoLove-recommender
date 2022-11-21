@@ -61,10 +61,9 @@ class SVDRecommender(BaseRecommender):
             user_ratings.sort(key=lambda x: x[1], reverse=True)
             self.predictions[user_id] = user_ratings[:10]
 
-    def recommend(self, user_id: ObjectId, n: int, already_recommended: list[str]) -> list[str]:
+    def recommend(self, user_id: ObjectId, n: int) -> list[str]:
         return [
                    prediction[0] for prediction in self.predictions[str(user_id)]
-                   if prediction[0] not in already_recommended
                ][:n]
 
 

@@ -16,11 +16,12 @@ class LdaSimDatabaseHandler:
         collection.delete_many({})
 
     @staticmethod
-    def get_similar_alcohols(collection: Collection, alcohol_ids: list[str]):
+    def get_similar_alcohols(collection: Collection, alcohol_ids: list[str], already_recommended: list[str]):
         return list(
             collection.find(
                 {
                     'source': {'$in': alcohol_ids},
+                    'target': {'$nin': already_recommended},
                     'sim': {'$gt': 0.2}
                 }
             )

@@ -63,7 +63,7 @@ class LDARecommender(BaseRecommender):
         self.save_similarities_to_db(db)
 
     @staticmethod
-    def recommend(user_id: ObjectId, db: Database, n: int) -> list[str]:
+    def recommend(user_id: ObjectId, db: Database, n: int, already_recommended: list[str]) -> list[str]:
         user_reviews = ReviewDatabaseHandler.get_user_reviews(db.reviews, user_id)
         if len(user_reviews) == 0:
             return []
@@ -74,7 +74,8 @@ class LDARecommender(BaseRecommender):
 
         similar = LdaSimDatabaseHandler.get_similar_alcohols(
             db.lda_sim,
-            list(alcohol_ids.keys())
+            list(alcohol_ids.keys()),
+            already_recommended
         )
         targets = set(_['target'] for _ in similar)
 
