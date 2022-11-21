@@ -49,11 +49,12 @@ async def get_recommendations_for_user(
         db: Database = Depends(get_db)
 ):
     user_id = validate_object_id(user_id)
-    lda_recommendations = LDA_recommender.recommend(user_id=user_id, db=db, n=4)
-    svd_recommendations = SVD_recommender.recommend(
+    svd_recommendations = SVD_recommender.recommend(user_id=user_id, n=4)
+    lda_recommendations = LDA_recommender.recommend(
         user_id=user_id,
-        n=RECOMMENDATIONS_NUM-len(lda_recommendations),
-        already_recommended=lda_recommendations
+        db=db,
+        n=RECOMMENDATIONS_NUM-len(svd_recommendations),
+        already_recommended=svd_recommendations
     )
     random_recommendation = random_recommender.recommend(
         n=RECOMMENDATIONS_NUM-len(lda_recommendations)-len(svd_recommendations),
