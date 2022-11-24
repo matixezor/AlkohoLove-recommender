@@ -22,7 +22,7 @@ class LDARecommender(BaseRecommender):
         if path.isfile(self.FILENAME):
             self.__dict__ = self.load(self.FILENAME)
         else:
-            self.nlp = load('pl_core_news_lg')
+            self.nlp = load('pl_core_news_md')
             self.dictionary = None
             self.corpus = None
             self.lda_model = None
