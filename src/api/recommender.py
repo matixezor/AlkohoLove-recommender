@@ -62,7 +62,9 @@ async def get_recommendations_for_user(
         db=db,
         already_recommended=lda_recommendations + svd_recommendations
     )
-    return lda_recommendations + svd_recommendations + random_recommendation
+    return {
+        'recommendations': lda_recommendations + svd_recommendations + random_recommendation
+    }
 
 
 @router.get(
@@ -75,4 +77,6 @@ async def get_similar_alcohols(
         db: Database = Depends(get_db)
 ):
     alcohol_id = validate_object_id(alcohol_id)
-    return LDA_recommender.get_similar_alcohols(alcohol_id, db, 5)
+    return {
+        'similar': LDA_recommender.get_similar_alcohols(alcohol_id, db, 5)
+    }

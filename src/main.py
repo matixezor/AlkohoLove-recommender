@@ -1,12 +1,12 @@
+from uvicorn import run
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from uvicorn import run
 
 from src.api.recommender import router as recommender_router
 from src.infrastructure.config.config import \
-    ALLOWED_ORIGINS, ALLOWED_HEADERS, ALLOWED_METHODS, ALLOW_CREDENTIALS
+    ALLOWED_ORIGINS, ALLOWED_HEADERS, ALLOWED_METHODS, ALLOW_CREDENTIALS, DOCS_URL
 
-app = FastAPI(title='AlkohoLove-recommender')
+app = FastAPI(title='AlkohoLove-recommender', docs_url=DOCS_URL, redoc_url=None)
 
 app.add_middleware(
     CORSMiddleware,
@@ -20,4 +20,4 @@ app.include_router(recommender_router)
 
 
 if __name__ == '__main__':
-    run('main:app', host='127.0.0.1', port=8080, reload=True)
+    run('main:app', host='127.0.0.1', port=8081, reload=True)
