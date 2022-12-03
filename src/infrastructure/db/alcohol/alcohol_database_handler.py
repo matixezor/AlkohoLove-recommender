@@ -16,7 +16,7 @@ class AlcoholDatabaseHandler:
         return list(
             collection.aggregate([
                 {
-                    '$match': {'_id': {'$nin': [to_omit]}}
+                    '$match': {'_id': {'$nin': to_omit}}
                 },
                 {'$sort': {'avg_rating': -1}},
                 {'$limit': 500},
