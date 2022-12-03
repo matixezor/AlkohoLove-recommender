@@ -1,28 +1,28 @@
-from os import path
 from bson import ObjectId
 from pandas import DataFrame
 from datetime import datetime
+from gridfs import GridFS, NoFile
 from collections import defaultdict
 from pymongo.database import Database
 from surprise import Reader, Dataset, SVD
 from surprise.model_selection import GridSearchCV
 
-from src.infrastructure.db.db_config import get_db
 from src.recommender.base_recommender import BaseRecommender
+from src.infrastructure.db.db_config import get_grid_fs, get_db
 from src.infrastructure.db.review.review_database_handler import ReviewDatabaseHandler
 
 
 class SVDRecommender(BaseRecommender):
-    FILENAME = 'SVDRecommender.pickle'
+    TYPE = 'SVD'
 
-    def __init__(self, db: Database):
-        if path.isfile(self.FILENAME):
-            self.__dict__ = self.load(self.FILENAME)
-        else:
+    def __init__(self, grid_fs: GridFS, db: Database):
+        try:
+            self.__dict__ = self.load(grid_fs.get(self.TYPE))
+        except NoFile:
             self.model = None
             self.predictions = defaultdict(list)
             self.fit(db)
-            self.save()
+            self.save(grid_fs)
 
     def fit(self, db: Database):
         print(f'[{datetime.now()}]Starting to fit the SVD model.')
@@ -67,4 +67,4 @@ class SVDRecommender(BaseRecommender):
                ][:n]
 
 
-SVD_recommender = SVDRecommender(get_db())
+SVD_recommender = SVDRecommender(get_grid_fs(), get_db())

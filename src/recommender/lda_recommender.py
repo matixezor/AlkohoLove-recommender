@@ -1,14 +1,14 @@
-from os import path
 from spacy import load
 from bson import ObjectId
 from datetime import datetime
 from pymongo import InsertOne
+from gridfs import GridFS, NoFile
 from scipy.sparse import coo_matrix
 from pymongo.database import Database
-from gensim import corpora, models, similarities
+from gensim import corpora, similarities
 
-from src.infrastructure.db.db_config import get_db
 from src.recommender.base_recommender import BaseRecommender
+from src.infrastructure.db.db_config import get_grid_fs, get_db
 from src.infrastructure.db.review.review_database_handler import ReviewDatabaseHandler
 from src.infrastructure.db.lda_sim.lda_sim_database_handler import LdaSimDatabaseHandler
 from src.infrastructure.db.alcohol.alcohol_database_handler import AlcoholDatabaseHandler
@@ -16,24 +16,20 @@ from src.infrastructure.db.alcohol.alcohol_database_handler import AlcoholDataba
 
 class LDARecommender(BaseRecommender):
     ALCOHOL_COLUMNS = ['_id', 'name', 'kind', 'type', 'description', 'taste', 'aroma', 'finish', 'country']
-    FILENAME = 'LDARecommender.pickle'
+    TYPE = 'LDA'
 
-    def __init__(self, db: Database):
-        if path.isfile(self.FILENAME):
-            self.__dict__ = self.load(self.FILENAME)
-        else:
+    def __init__(self, grid_fs: GridFS, db: Database):
+        try:
+            self.__dict__ = self.load(grid_fs.get(self.TYPE))
+        except NoFile:
             self.nlp = load('pl_core_news_md')
-            self.dictionary = None
-            self.corpus = None
-            self.lda_model = None
             self.index = None
             self.alcohols = None
             self.fit(db)
-            self.save()
+            self.save(grid_fs)
 
     def fit(self, db: Database):
         print(f'[{datetime.now()}]Starting to fit the LDA model.')
-        num_topics = AlcoholDatabaseHandler.count_types(db.alcohols)
         self.alcohols = AlcoholDatabaseHandler.get_alcohols(db.alcohols, self.ALCOHOL_COLUMNS)
 
         alcohols_data = [
@@ -50,14 +46,9 @@ class LDARecommender(BaseRecommender):
             documents.append([token.lemma_ for token in doc if (not token.is_stop and not token.is_punct)])
 
         print(f'[{datetime.now()}]Processing ended.')
-        self.dictionary = corpora.Dictionary(documents)
-        self.corpus = [self.dictionary.doc2bow(document) for document in documents]
-        self.lda_model = models.ldamodel.LdaModel(
-            corpus=self.corpus,
-            id2word=self.dictionary,
-            num_topics=num_topics
-        )
-        self.index = similarities.MatrixSimilarity(self.corpus)
+        dictionary = corpora.Dictionary(documents)
+        corpus = [dictionary.doc2bow(document) for document in documents]
+        self.index = similarities.MatrixSimilarity(corpus)
 
         print(f'[{datetime.now()}]Saving similarities to database.')
         self.save_similarities_to_db(db)
@@ -69,13 +60,14 @@ class LDARecommender(BaseRecommender):
             return []
 
         alcohol_ids = {str(review['alcohol_id']): review['rating'] for review in user_reviews}
+        alcohol_ids_keys = list(alcohol_ids.keys())
 
         user_mean = sum(alcohol_ids.values()) / len(alcohol_ids)
 
         similar = LdaSimDatabaseHandler.get_similar_alcohols(
             db.lda_sim,
-            list(alcohol_ids.keys()),
-            already_recommended
+            alcohol_ids_keys,
+            already_recommended + alcohol_ids_keys
         )
         targets = set(_['target'] for _ in similar)
 
@@ -131,4 +123,4 @@ class LDARecommender(BaseRecommender):
         LdaSimDatabaseHandler.save_to_db(db.lda_sim, operations)
 
 
-LDA_recommender = LDARecommender(get_db())
+LDA_recommender = LDARecommender(get_grid_fs(), get_db())
