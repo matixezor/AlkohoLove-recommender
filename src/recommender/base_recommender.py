@@ -11,8 +11,5 @@ class BaseRecommender:
         grid_fs.put(dumps(self.__dict__), _id=self.TYPE, protocol=HIGHEST_PROTOCOL)
 
     def load(self, file: GridOut):
-        import pathlib
-
-        pathlib.PosixPath = pathlib.WindowsPath
         print(f'[{datetime.now()}]Loading self [{self.TYPE}] from database.')
         return load(file)
