@@ -2,7 +2,7 @@ from pymongo import DESCENDING
 from pymongo.collection import Collection
 
 
-class LdaSimDatabaseHandler:
+class SimDatabaseHandler:
     @staticmethod
     def save_to_db(collection: Collection, operations: list):
         collection.bulk_write(operations)
