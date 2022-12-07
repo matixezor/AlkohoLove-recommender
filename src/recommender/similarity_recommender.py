@@ -24,19 +24,18 @@ class SimilarityRecommender(BaseRecommender):
         except NoFile:
             self.nlp = load('pl_core_news_md')
             self.similarity_matrix = None
-            self.alcohols = None
             self.fit(db)
             self.save(grid_fs)
 
     def fit(self, db: Database):
         print(f'[{datetime.now()}]Starting to fit the similarity model.')
-        self.alcohols = AlcoholDatabaseHandler.get_alcohols(db.alcohols, self.ALCOHOL_COLUMNS)
+        alcohols = AlcoholDatabaseHandler.get_alcohols(db.alcohols, self.ALCOHOL_COLUMNS)
 
         alcohols_data = [
             f'{alcohol["name"]}, {alcohol["kind"]}, {alcohol["type"]}, ' \
             f'{alcohol["description"]} {", ".join(alcohol["taste"])} {", ".join(alcohol["aroma"])} ' \
             f'{", ".join(alcohol["finish"])}, {alcohol["country"]}'
-            for alcohol in self.alcohols
+            for alcohol in alcohols
         ]
         print(f'[{datetime.now()}]Created alcohols data. Beginning processing.')
 
@@ -51,7 +50,7 @@ class SimilarityRecommender(BaseRecommender):
         self.similarity_matrix = similarities.MatrixSimilarity(corpus)
 
         print(f'[{datetime.now()}]Saving similarities to database.')
-        self.save_similarities_to_db(db)
+        self.save_similarities_to_db(db, alcohols)
 
     @staticmethod
     def recommend(user_id: ObjectId, db: Database, n: int, already_recommended: list[str]) -> list[str]:
@@ -107,7 +106,7 @@ class SimilarityRecommender(BaseRecommender):
             )
         ]
 
-    def save_similarities_to_db(self, db: Database):
+    def save_similarities_to_db(self, db: Database, alcohols):
         coo = coo_matrix(self.similarity_matrix)
         csr = coo.tocsr()
         xs, ys = coo.nonzero()
@@ -120,8 +119,8 @@ class SimilarityRecommender(BaseRecommender):
             sim = float(csr[x, y])
             if sim <= 0.2:
                 continue
-            x_id = str(self.alcohols[x]['_id'])
-            y_id = str(self.alcohols[y]['_id'])
+            x_id = str(alcohols[x]['_id'])
+            y_id = str(alcohols[y]['_id'])
             operations.append(InsertOne({'source': x_id, 'target': y_id, 'sim': sim}))
 
         SimDatabaseHandler.save_to_db(db.lda_sim, operations)
