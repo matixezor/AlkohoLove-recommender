@@ -118,7 +118,7 @@ class SimilarityRecommender(BaseRecommender):
                 continue
 
             sim = float(csr[x, y])
-            if sim < 0.1:
+            if sim <= 0.2:
                 continue
             x_id = str(self.alcohols[x]['_id'])
             y_id = str(self.alcohols[y]['_id'])
