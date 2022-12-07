@@ -4,11 +4,11 @@ from pymongo.database import Database
 from fastapi import APIRouter, status, Depends
 
 from src.recommender.svd_recommender import SVD_recommender
-from src.recommender.lda_recommender import LDA_recommender
 from src.infrastructure.db.db_config import get_db, get_grid_fs
 from src.recommender.random_recommender import random_recommender
 from src.infrastructure.util.object_id_util import validate_object_id
-from src.infrastructure.db.lda_sim.lda_sim_database_handler import LdaSimDatabaseHandler
+from src.recommender.similarity_recommender import similarity_recommender
+from src.infrastructure.db.sim.sim_database_handler import SimDatabaseHandler
 
 
 router = APIRouter(prefix='/recommend', tags=['recommender'])
@@ -25,12 +25,12 @@ async def fit_the_models(
         db: Database = Depends(get_db),
         grid_fs: GridFS = Depends(get_grid_fs)
 ):
-    print(f'[{datetime.now()}]Removing LDA from database.')
-    grid_fs.delete(LDA_recommender.TYPE)
-    print(f'[{datetime.now()}]Clearing LDA sim database.')
-    LdaSimDatabaseHandler.empty_collection(db.lda_sim)
-    LDA_recommender.fit(db)
-    LDA_recommender.save(grid_fs)
+    print(f'[{datetime.now()}]Removing SIM from database.')
+    grid_fs.delete(similarity_recommender.TYPE)
+    print(f'[{datetime.now()}]Clearing sim database.')
+    SimDatabaseHandler.empty_collection(db.sim)
+    similarity_recommender.fit(db)
+    similarity_recommender.save(grid_fs)
 
     print(f'[{datetime.now()}]Removing SVD from database.')
     grid_fs.delete(SVD_recommender.TYPE)
@@ -49,20 +49,20 @@ async def get_recommendations_for_user(
 ):
     user_id = validate_object_id(user_id)
     svd_recommendations = SVD_recommender.recommend(user_id=user_id, n=4)
-    lda_recommendations = LDA_recommender.recommend(
+    sim_recommendations = similarity_recommender.recommend(
         user_id=user_id,
         db=db,
         n=RECOMMENDATIONS_NUM-len(svd_recommendations)-2,
         already_recommended=svd_recommendations
     )
     random_recommendation = random_recommender.recommend(
-        n=RECOMMENDATIONS_NUM-len(lda_recommendations)-len(svd_recommendations),
+        n=RECOMMENDATIONS_NUM-len(sim_recommendations)-len(svd_recommendations),
         user_id=user_id,
         db=db,
-        already_recommended=lda_recommendations + svd_recommendations
+        already_recommended=sim_recommendations + svd_recommendations
     )
     return {
-        'recommendations': lda_recommendations + svd_recommendations + random_recommendation
+        'recommendations': svd_recommendations + sim_recommendations + random_recommendation
     }
 
 
@@ -77,5 +77,5 @@ async def get_similar_alcohols(
 ):
     alcohol_id = validate_object_id(alcohol_id)
     return {
-        'similar': LDA_recommender.get_similar_alcohols(alcohol_id, db, 5)
+        'similar': similarity_recommender.get_similar_alcohols(alcohol_id, db, 5)
     }

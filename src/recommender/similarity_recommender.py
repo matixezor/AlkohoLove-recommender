@@ -9,27 +9,27 @@ from gensim import corpora, similarities
 
 from src.recommender.base_recommender import BaseRecommender
 from src.infrastructure.db.db_config import get_grid_fs, get_db
+from src.infrastructure.db.sim.sim_database_handler import SimDatabaseHandler
 from src.infrastructure.db.review.review_database_handler import ReviewDatabaseHandler
-from src.infrastructure.db.lda_sim.lda_sim_database_handler import LdaSimDatabaseHandler
 from src.infrastructure.db.alcohol.alcohol_database_handler import AlcoholDatabaseHandler
 
 
-class LDARecommender(BaseRecommender):
+class SimilarityRecommender(BaseRecommender):
     ALCOHOL_COLUMNS = ['_id', 'name', 'kind', 'type', 'description', 'taste', 'aroma', 'finish', 'country']
-    TYPE = 'LDA'
+    TYPE = 'SIM'
 
     def __init__(self, grid_fs: GridFS, db: Database):
         try:
             self.__dict__ = self.load(grid_fs.get(self.TYPE))
         except NoFile:
             self.nlp = load('pl_core_news_md')
-            self.index = None
+            self.similarity_matrix = None
             self.alcohols = None
             self.fit(db)
             self.save(grid_fs)
 
     def fit(self, db: Database):
-        print(f'[{datetime.now()}]Starting to fit the LDA model.')
+        print(f'[{datetime.now()}]Starting to fit the similarity model.')
         self.alcohols = AlcoholDatabaseHandler.get_alcohols(db.alcohols, self.ALCOHOL_COLUMNS)
 
         alcohols_data = [
@@ -43,12 +43,12 @@ class LDARecommender(BaseRecommender):
         docs = self.nlp.pipe(alcohols_data)
         documents = []
         for doc in docs:
-            documents.append([token.lemma_ for token in doc if (not token.is_stop and not token.is_punct)])
+            documents.append([token.lemma_.lower() for token in doc if (not token.is_stop and not token.is_punct)])
 
         print(f'[{datetime.now()}]Processing ended.')
         dictionary = corpora.Dictionary(documents)
         corpus = [dictionary.doc2bow(document) for document in documents]
-        self.index = similarities.MatrixSimilarity(corpus)
+        self.similarity_matrix = similarities.MatrixSimilarity(corpus)
 
         print(f'[{datetime.now()}]Saving similarities to database.')
         self.save_similarities_to_db(db)
@@ -64,7 +64,7 @@ class LDARecommender(BaseRecommender):
 
         user_mean = sum(alcohol_ids.values()) / len(alcohol_ids)
 
-        similar = LdaSimDatabaseHandler.get_similar_alcohols(
+        similar = SimDatabaseHandler.get_similar_alcohols(
             db.lda_sim,
             alcohol_ids_keys,
             already_recommended + alcohol_ids_keys
@@ -79,9 +79,13 @@ class LDARecommender(BaseRecommender):
             rated_alcohols = [_ for _ in similar if _['target'] == target]
 
             if len(rated_alcohols) > 0:
+                # rated alcohols similar to current potential recommendation
                 for similar_alcohol in rated_alcohols:
+                    # similar alcohol rating minus user rating mean
                     r = alcohol_ids[similar_alcohol['source']] - user_mean
+                    # sum of similarity multiplied by normalized rating
                     pre += similar_alcohol['sim'] * r
+                    # sum of similarities
                     sim_sum += similar_alcohol['sim']
 
                 if sim_sum > 0:
@@ -96,7 +100,7 @@ class LDARecommender(BaseRecommender):
     def get_similar_alcohols(alcohol_id: ObjectId, db: Database, n: int) -> list[str]:
         return [
             str(alcohol['target']) for alcohol in
-            LdaSimDatabaseHandler.get_similar_alcohols_to(
+            SimDatabaseHandler.get_similar_alcohols_to(
                 db.lda_sim,
                 str(alcohol_id),
                 n
@@ -104,7 +108,7 @@ class LDARecommender(BaseRecommender):
         ]
 
     def save_similarities_to_db(self, db: Database):
-        coo = coo_matrix(self.index)
+        coo = coo_matrix(self.similarity_matrix)
         csr = coo.tocsr()
         xs, ys = coo.nonzero()
 
@@ -120,7 +124,7 @@ class LDARecommender(BaseRecommender):
             y_id = str(self.alcohols[y]['_id'])
             operations.append(InsertOne({'source': x_id, 'target': y_id, 'sim': sim}))
 
-        LdaSimDatabaseHandler.save_to_db(db.lda_sim, operations)
+        SimDatabaseHandler.save_to_db(db.lda_sim, operations)
 
 
-LDA_recommender = LDARecommender(get_grid_fs(), get_db())
+similarity_recommender = SimilarityRecommender(get_grid_fs(), get_db())

@@ -51,6 +51,7 @@ class SVDRecommender(BaseRecommender):
         print(f'[{datetime.now()}]Making predictions.')
         test_set = data.build_anti_testset()
         predictions = self.model.test(test_set)
+        self.predictions = defaultdict(list)
 
         print(f'[{datetime.now()}]Mapping predictions to each user.')
         for user_id, alcohol_id, _, prediction, __ in predictions:
