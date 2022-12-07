@@ -22,9 +22,9 @@ class SimDatabaseHandler:
                 {
                     'source': {'$in': alcohol_ids},
                     'target': {'$nin': already_recommended},
-                    'sim': {'$gt': 0.2}
+                    'sim': {'$gt': 0.2},
                 }
-            )
+            ).sort('sim', DESCENDING).limit(400)
         )
 
     @staticmethod

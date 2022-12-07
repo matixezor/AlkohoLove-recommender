@@ -63,6 +63,7 @@ class SimilarityRecommender(BaseRecommender):
 
         user_mean = sum(alcohol_ids.values()) / len(alcohol_ids)
 
+        # 400 most similar alcohols to the rated ones excluding the already recommended
         similar = SimDatabaseHandler.get_similar_alcohols(
             db.lda_sim,
             alcohol_ids_keys,
@@ -72,7 +73,9 @@ class SimilarityRecommender(BaseRecommender):
 
         recommendations = dict()
         for target in targets:
-            pre = 0
+            # sum of weighted similarities
+            weight_sim_sum = 0
+            # sum of similarities
             sim_sum = 0
 
             rated_alcohols = [_ for _ in similar if _['target'] == target]
@@ -80,18 +83,19 @@ class SimilarityRecommender(BaseRecommender):
             if len(rated_alcohols) > 0:
                 # rated alcohols similar to current potential recommendation
                 for similar_alcohol in rated_alcohols:
-                    # similar alcohol rating minus user rating mean
-                    r = alcohol_ids[similar_alcohol['source']] - user_mean
-                    # sum of similarity multiplied by normalized rating
-                    pre += similar_alcohol['sim'] * r
-                    # sum of similarities
+                    # similarity weight calculated as rated alcohol rating minus user mean rating
+                    weight = alcohol_ids[similar_alcohol['source']] - user_mean
+                    # add alcohol similarity times weight
+                    weight_sim_sum += similar_alcohol['sim'] * weight
+                    # add plain similarity
                     sim_sum += similar_alcohol['sim']
 
-                if sim_sum > 0:
-                    recommendations[target] = {
-                        'prediction': float(user_mean + pre / sim_sum),
-                        'sim_alcohols': [_['source'] for _ in rated_alcohols]
-                    }
+                recommendations[target] = {
+                    # user mean plus sum of weighted similarities divided by sum of plain similarities
+                    'prediction': float(user_mean + weight_sim_sum / sim_sum),
+                    'sim_alcohols': [_['source'] for _ in rated_alcohols]
+                }
+
         sorted_recommendations = sorted(recommendations.items(), key=lambda x: -float(x[1]['prediction']))[:n]
         return [sorted_recommendation[0] for sorted_recommendation in sorted_recommendations]
 
