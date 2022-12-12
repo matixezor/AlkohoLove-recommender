@@ -13,7 +13,7 @@ class SimDatabaseHandler:
 
     @staticmethod
     def empty_collection(collection: Collection):
-        collection.delete_many({})
+        return collection.delete_many({})
 
     @staticmethod
     def get_similar_alcohols(collection: Collection, alcohol_ids: list[str], already_recommended: list[str]):

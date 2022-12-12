@@ -28,8 +28,8 @@ async def fit_the_models(
     print(f'[{datetime.now()}]Removing SIM from database.')
     grid_fs.delete(similarity_recommender.TYPE)
     print(f'[{datetime.now()}]Clearing sim database.')
-    SimDatabaseHandler.empty_collection(db.sim)
-    print(f'[{datetime.now()}]Cleared SIM database.')
+    delete_result = SimDatabaseHandler.empty_collection(db.lda_sim)
+    print(f'[{datetime.now()}]Cleared {delete_result.deleted_count} records from database.')
     similarity_recommender.fit(db)
     similarity_recommender.save(grid_fs)
 
