@@ -1,5 +1,6 @@
 from pymongo import DESCENDING
 from pymongo.collection import Collection
+from pymongo.database import Database
 
 
 class SimDatabaseHandler:
@@ -13,7 +14,11 @@ class SimDatabaseHandler:
 
     @staticmethod
     def empty_collection(collection: Collection):
-        return collection.delete_many({})
+        collection.drop()
+
+    @staticmethod
+    def init_collection(db: Database):
+        db.create_collection(name='lda_sim')
 
     @staticmethod
     def get_similar_alcohols(collection: Collection, alcohol_ids: list[str], already_recommended: list[str]):
