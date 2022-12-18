@@ -15,7 +15,10 @@ from src.infrastructure.db.alcohol.alcohol_database_handler import AlcoholDataba
 
 
 class SimilarityRecommender(BaseRecommender):
-    ALCOHOL_COLUMNS = ['_id', 'name', 'kind', 'type', 'description', 'taste', 'aroma', 'finish', 'country']
+    ALCOHOL_COLUMNS = [
+        '_id', 'name', 'kind', 'type', 'taste', 'aroma', 'finish', 'country', 'description',
+        'color', 'region', 'food', 'keywords', 'manufacturer', 'winery', 'grapes', 'fermentation'
+    ]
     TYPE = 'SIM'
 
     def __init__(self, grid_fs: GridFS, db: Database):
@@ -33,8 +36,11 @@ class SimilarityRecommender(BaseRecommender):
 
         alcohols_data = [
             f'{alcohol["name"]}, {alcohol["kind"]}, {alcohol["type"]}, ' \
-            f'{alcohol["description"]} {", ".join(alcohol["taste"])} {", ".join(alcohol["aroma"])} ' \
-            f'{", ".join(alcohol["finish"])}, {alcohol["country"]}'
+            f'{", ".join(alcohol["taste"])} {", ".join(alcohol["aroma"])} ' \
+            f'{", ".join(alcohol["finish"])}, {alcohol["country"]}, {alcohol.get("color", "")}, {alcohol.get("region", "")}' \
+            f'{", ".join(alcohol.get("food", []))}, {", ".join(alcohol.get("keywords", []))}, ' \
+            f'{alcohol.get("manufacturer", "")}, {alcohol.get("winery", "")}, {", ".join(alcohol.get("grapes", []))} ' \
+            f'{alcohol.get("fermentation", "")}, {alcohol["description"]}'
             for alcohol in alcohols
         ]
         print(f'[{datetime.now()}]Created alcohols data. Beginning processing.')
@@ -91,8 +97,8 @@ class SimilarityRecommender(BaseRecommender):
                     sim_sum += similar_alcohol['sim']
 
                 recommendations[target] = {
-                    # user mean plus sum of weighted similarities divided by sum of plain similarities
-                    'prediction': float(user_mean + weight_sim_sum / sim_sum),
+                    # sum of weighted similarities divided by sum of plain similarities
+                    'prediction': weight_sim_sum / sim_sum,
                     'sim_alcohols': [_['source'] for _ in rated_alcohols]
                 }
 
