@@ -2,8 +2,8 @@ from uvicorn import run
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src.api.recommender import router as recommender_router
-from src.infrastructure.config.config import \
+from src.api.recommender_api import router as recommender_router
+from src.config import \
     ALLOWED_ORIGINS, ALLOWED_HEADERS, ALLOWED_METHODS, ALLOW_CREDENTIALS, DOCS_URL
 
 app = FastAPI(title='AlkohoLove-recommender', docs_url=DOCS_URL, redoc_url=None)
