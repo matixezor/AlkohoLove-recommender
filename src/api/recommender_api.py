@@ -1,12 +1,12 @@
 from gridfs import GridFS
 from datetime import datetime
 from pymongo.database import Database
-from fastapi import APIRouter, status, Depends
+from fastapi import APIRouter, status, Depends, Header, HTTPException
 
 from src.recommender.svd_recommender import SVD_recommender
 from src.infrastructure.db.db_config import get_db, get_grid_fs
 from src.recommender.random_recommender import random_recommender
-from src.infrastructure.util.object_id_util import validate_object_id
+from src.infrastructure.db.util.object_id_util import validate_object_id
 from src.recommender.similarity_recommender import similarity_recommender
 from src.infrastructure.db.sim.sim_database_handler import SimDatabaseHandler
 
@@ -23,8 +23,11 @@ RECOMMENDATIONS_NUM = 10
 )
 async def fit_the_models(
         db: Database = Depends(get_db),
-        grid_fs: GridFS = Depends(get_grid_fs)
+        grid_fs: GridFS = Depends(get_grid_fs),
+        x_appengine_cron: bool = Header()
 ):
+    if not x_appengine_cron:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
     print(f'[{datetime.now()}]Removing SIM from database.')
     grid_fs.delete(similarity_recommender.TYPE)
     print(f'[{datetime.now()}]Clearing sim database.')
